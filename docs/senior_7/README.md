@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Senior Level 6: Performance y Deployment](../senior_6/README.md)  
-**Siguiente →**: [Senior Level 8: Sistemas Avanzados](../senior_8/README.md)
+- **⬅️ Anterior**: [Módulo 13: Performance y Deployment](../senior_6/README.md)
+- **➡️ Siguiente**: [Módulo 15: Sistemas Avanzados](../senior_8/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Senior Level 1: Patrones de Diseño](../senior_1/README.md)  
-**Siguiente →**: [Senior Level 3: APIs REST](../senior_3/README.md)
+- **⬅️ Anterior**: [Módulo 8: Patrones de Diseño](../senior_1/README.md)
+- **➡️ Siguiente**: [Módulo 10: APIs REST](../senior_3/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

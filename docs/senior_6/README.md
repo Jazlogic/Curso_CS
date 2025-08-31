@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Senior Level 5: Arquitectura Limpia](../senior_5/README.md)  
-**Siguiente →**: [Senior Level 7: Plataformas Empresariales](../senior_7/README.md)
+- **⬅️ Anterior**: [Módulo 12: Arquitectura Limpia](../senior_5/README.md)
+- **➡️ Siguiente**: [Módulo 14: Plataformas Empresariales](../senior_7/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 
@@ -1324,7 +1325,7 @@ HighPerformanceApp/
 
 **Progreso**: 12 de 12 niveles completados ✅
 
-**Nivel Anterior**: [Senior Level 5: Arquitectura Limpia y Microservicios](../senior_5/README.md)
+**Nivel Anterior**: [Senior Level 5: Arquitectura Limpia](../senior_5/README.md)
 
 ---
 

@@ -1,5 +1,13 @@
 # 🎯 Junior Level 1: Fundamentos Básicos de C#
 
+## 🧭 Navegación del Curso
+
+- **⬅️ Anterior**: [🏠 Página Principal](../README.md)
+- **➡️ Siguiente**: [Módulo 2: Estructuras de Control](../junior_2/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
+
+---
+
 ## 📚 Descripción
 
 En este nivel aprenderás los conceptos más fundamentales de C#: variables, tipos de datos, operadores y la estructura básica de un programa.

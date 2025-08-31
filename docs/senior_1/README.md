@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Mid Level 4: LINQ y Expresiones Lambda](../midLevel_4/README.md)  
-**Siguiente →**: [Senior Level 2: Testing y TDD](../senior_2/README.md)
+- **⬅️ Anterior**: [Módulo 7: LINQ y Lambda](../midLevel_4/README.md)
+- **➡️ Siguiente**: [Módulo 9: Testing y TDD](../senior_2/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

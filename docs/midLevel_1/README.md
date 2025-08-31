@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Junior Level 3: Arrays y Colecciones](../junior_3/README.md)  
-**Siguiente →**: [Mid Level 2: Herencia y Polimorfismo](../midLevel_2/README.md)
+- **⬅️ Anterior**: [Módulo 3: Colecciones Básicas](../junior_3/README.md)
+- **➡️ Siguiente**: [Módulo 5: Herencia y Polimorfismo](../midLevel_2/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

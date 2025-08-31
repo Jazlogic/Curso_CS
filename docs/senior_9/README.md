@@ -1,9 +1,10 @@
-# 🏆 Senior Level 9: Maestría Total del Desarrollo C#
+# 🏆 Senior Level 9: Maestría Total y Liderazgo Técnico
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Senior Level 8: Sistemas Avanzados](../senior_8/README.md)  
-**Siguiente →**: [Final del Curso](../../README.md)
+- **⬅️ Anterior**: [Módulo 15: Sistemas Avanzados](../senior_8/README.md)
+- **➡️ Siguiente**: [🏠 Página Principal](../README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

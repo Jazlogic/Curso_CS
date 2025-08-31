@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Junior Level 2: Estructuras de Control](../junior_2/README.md)  
-**Siguiente →**: [Mid Level 1: Programación Orientada a Objetos](../midLevel_1/README.md)
+- **⬅️ Anterior**: [Módulo 2: Estructuras de Control](../junior_2/README.md)
+- **➡️ Siguiente**: [Módulo 4: POO Básica](../midLevel_1/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

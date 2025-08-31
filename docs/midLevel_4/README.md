@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Mid Level 3: Excepciones y Generics](../midLevel_3/README.md)  
-**Siguiente →**: [Senior Level 1: Patrones de Diseño](../senior_1/README.md)
+- **⬅️ Anterior**: [Módulo 6: Excepciones y Generics](../midLevel_3/README.md)
+- **➡️ Siguiente**: [Módulo 8: Patrones de Diseño](../senior_1/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

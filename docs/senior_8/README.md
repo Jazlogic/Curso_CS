@@ -1,9 +1,10 @@
-# 🏆 Senior Level 8: Sistemas Avanzados y Escalabilidad
+# 🏆 Senior Level 8: Sistemas Avanzados y Distribuidos
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Senior Level 7: Plataformas Empresariales](../senior_7/README.md)  
-**Siguiente →**: [Senior Level 9: Maestría Total](../senior_9/README.md)
+- **⬅️ Anterior**: [Módulo 14: Plataformas Empresariales](../senior_7/README.md)
+- **➡️ Siguiente**: [Módulo 16: Maestría Total](../senior_9/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

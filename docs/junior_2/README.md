@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Junior Level 1: Fundamentos Básicos](../junior_1/README.md)  
-**Siguiente →**: [Junior Level 3: Arrays y Colecciones](../junior_3/README.md)
+- **⬅️ Anterior**: [Módulo 1: Fundamentos Básicos](../junior_1/README.md)
+- **➡️ Siguiente**: [Módulo 3: Colecciones Básicas](../junior_3/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 

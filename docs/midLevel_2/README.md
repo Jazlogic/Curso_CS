@@ -2,8 +2,9 @@
 
 ## 🧭 Navegación del Curso
 
-**← Anterior**: [Mid Level 1: Programación Orientada a Objetos](../midLevel_1/README.md)  
-**Siguiente →**: [Mid Level 3: Excepciones y Generics](../midLevel_3/README.md)
+- **⬅️ Anterior**: [Módulo 4: POO Básica](../midLevel_1/README.md)
+- **➡️ Siguiente**: [Módulo 6: Excepciones y Generics](../midLevel_3/README.md)
+- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
 
