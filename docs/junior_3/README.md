@@ -1,5 +1,12 @@
 # 🎯 Junior Level 3: Arrays, Listas y Colecciones Básicas
 
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Junior Level 2: Estructuras de Control](../junior_2/README.md)  
+**Siguiente →**: [Mid Level 1: Programación Orientada a Objetos](../midLevel_1/README.md)
+
+---
+
 ## 📚 Descripción
 
 En este nivel aprenderás a trabajar con colecciones de datos: arrays, listas y otras estructuras que te permitirán manejar múltiples valores de manera eficiente.

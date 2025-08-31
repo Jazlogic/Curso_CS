@@ -1,5 +1,12 @@
 # 🚀 Mid Level 4: LINQ y Expresiones Lambda
 
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Mid Level 3: Excepciones y Generics](../midLevel_3/README.md)  
+**Siguiente →**: [Senior Level 1: Patrones de Diseño](../senior_1/README.md)
+
+---
+
 ## 📋 Contenido del Nivel
 
 ### 🎯 Objetivos de Aprendizaje

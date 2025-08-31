@@ -1,4 +1,11 @@
-# 🎯 Senior Level 1: Patrones de Diseño y Principios SOLID
+# 🏆 Senior Level 1: Patrones de Diseño y Principios SOLID
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Mid Level 4: LINQ y Expresiones Lambda](../midLevel_4/README.md)  
+**Siguiente →**: [Senior Level 2: Testing y TDD](../senior_2/README.md)
+
+---
 
 ## 📚 Descripción
 

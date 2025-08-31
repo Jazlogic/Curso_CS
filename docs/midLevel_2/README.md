@@ -1,4 +1,11 @@
-# 🎯 Mid Level 2: Herencia, Polimorfismo e Interfaces
+# 🚀 Mid Level 2: Herencia, Polimorfismo e Interfaces
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Mid Level 1: Programación Orientada a Objetos](../midLevel_1/README.md)  
+**Siguiente →**: [Mid Level 3: Excepciones y Generics](../midLevel_3/README.md)
+
+---
 
 ## 📚 Descripción
 

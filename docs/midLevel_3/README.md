@@ -1,5 +1,12 @@
 # 🚀 Mid Level 3: Manejo de Excepciones y Generics
 
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Mid Level 2: Herencia y Polimorfismo](../midLevel_2/README.md)  
+**Siguiente →**: [Mid Level 4: LINQ y Expresiones Lambda](../midLevel_4/README.md)
+
+---
+
 ## 📋 Contenido del Nivel
 
 ### 🎯 Objetivos de Aprendizaje

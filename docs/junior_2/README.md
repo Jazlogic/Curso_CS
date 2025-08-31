@@ -1,5 +1,12 @@
 # 🎯 Junior Level 2: Estructuras de Control y Funciones
 
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Junior Level 1: Fundamentos Básicos](../junior_1/README.md)  
+**Siguiente →**: [Junior Level 3: Arrays y Colecciones](../junior_3/README.md)
+
+---
+
 ## 📚 Descripción
 
 En este nivel aprenderás a controlar el flujo de tu programa usando estructuras condicionales, bucles y cómo crear funciones reutilizables.

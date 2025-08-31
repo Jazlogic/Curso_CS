@@ -11,53 +11,33 @@ Esta guía está diseñada para llevarte desde los conceptos más básicos de C#
 - **Senior Level**: Patrones avanzados, arquitectura y mejores prácticas
 - **Backend Focus**: APIs, bases de datos, testing y deployment
 
+## 📁 Estructura Completa del Curso
+
+### 🌱 **NIVEL JUNIOR** - Fundamentos Básicos (4-6 semanas)
+
+- **[Junior Level 1: Fundamentos Básicos](docs/junior_1/README.md)** - Variables, tipos de datos, operadores
+- **[Junior Level 2: Estructuras de Control](docs/junior_2/README.md)** - If-else, switch, bucles, funciones
+- **[Junior Level 3: Colecciones Básicas](docs/junior_3/README.md)** - Arrays, List<T>, Dictionary, HashSet
+
+### 🚀 **NIVEL MID LEVEL** - Programación Orientada a Objetos (6-8 semanas)
+
+- **[Mid Level 1: POO Básica](docs/midLevel_1/README.md)** - Clases, objetos, encapsulación, constructores
+- **[Mid Level 2: Herencia y Polimorfismo](docs/midLevel_2/README.md)** - Herencia, interfaces, clases abstractas
+- **[Mid Level 3: Excepciones y Generics](docs/midLevel_3/README.md)** - Try-catch, generics, using statement
+- **[Mid Level 4: LINQ y Lambda](docs/midLevel_4/README.md)** - LINQ, expresiones lambda, async/await
+
+### 🏆 **NIVEL SENIOR** - Arquitectura y Mejores Prácticas (8-12 semanas)
+
+- **[Senior Level 1: Patrones de Diseño](docs/senior_1/README.md)** - SOLID, patrones creacionales, estructurales y de comportamiento
+- **[Senior Level 2: Testing y TDD](docs/senior_2/README.md)** - Unit testing, TDD, mocking, BDD
+- **[Senior Level 3: APIs REST](docs/senior_3/README.md)** - ASP.NET Core, APIs RESTful, JWT, Swagger
+- **[Senior Level 4: Entity Framework](docs/senior_4/README.md)** - EF Core, bases de datos, patrones de repositorio
+- **[Senior Level 5: Arquitectura Limpia](docs/senior_5/README.md)** - Clean Architecture, CQRS, microservicios
+- **[Senior Level 6: Performance y Deployment](docs/senior_6/README.md)** - Optimización, seguridad, Docker, CI/CD
+- **[Senior Level 7: Plataformas Empresariales](docs/senior_7/README.md)** - Arquitectura de plataformas, CQRS, Domain Events
+- **[Senior Level 8: Sistemas Avanzados](docs/senior_8/README.md)** - Sistemas complejos, integración, escalabilidad
+- **[Senior Level 9: Maestría Total](docs/senior_9/README.md)** - Dominio completo, mejores prácticas, liderazgo técnico
+
 ## 📁 Estructura del Curso
 
 ```
-docs/
-├── junior_1/          # Variables, tipos de datos, operadores
-├── junior_2/          # Estructuras de control y funciones
-├── junior_3/          # Arrays, listas y colecciones básicas
-├── midLevel_1/        # Programación orientada a objetos
-├── midLevel_2/        # Herencia, polimorfismo, interfaces
-├── midLevel_3/        # Manejo de excepciones y generics
-├── midLevel_4/        # LINQ y expresiones lambda
-├── senior_1/          # Patrones de diseño y SOLID
-├── senior_2/          # Testing y TDD
-├── senior_3/          # APIs REST y Web APIs
-├── senior_4/          # Entity Framework y bases de datos
-├── senior_5/          # Arquitectura limpia y microservicios
-└── senior_6/          # Performance, seguridad y deployment
-```
-
-## 🛠️ Requisitos Previos
-
-- Visual Studio 2022 Community Edition (gratuito)
-- .NET 8.0 SDK
-- Conocimientos básicos de programación (opcional)
-
-## 🚀 Cómo Usar Esta Guía
-
-1. **Progresión Secuencial**: Completa cada nivel antes de pasar al siguiente
-2. **Práctica Constante**: Resuelve todos los ejercicios de cada sección
-3. **Proyectos Integradores**: Cada nivel incluye un proyecto que consolida lo aprendido
-4. **Evaluación**: Cada sección incluye un quiz de autoevaluación
-
-## 📊 Tiempo Estimado
-
-- **Junior Level**: 4-6 semanas (estudiando 2-3 horas por día)
-- **Mid Level**: 6-8 semanas
-- **Senior Level**: 8-12 semanas
-
-**Total estimado**: 18-26 semanas para completar todo el curso
-
-## 🎓 Certificación
-
-Al completar todos los niveles, tendrás los conocimientos equivalentes a un desarrollador C# senior backend con experiencia en:
-- Desarrollo de APIs REST
-- Patrones de arquitectura limpia
-- Testing y TDD
-- Entity Framework y SQL Server
-- Microservicios y deployment
-
-¡Comienza tu viaje hacia convertirte en un desarrollador C# senior backend! 🎯

@@ -170,6 +170,15 @@ Crea un programa que calcule el Índice de Masa Corporal (IMC) usando peso y alt
 
 Una vez que hayas completado todos los ejercicios y comprendas los conceptos, estarás listo para el **Junior Level 2: Estructuras de Control y Funciones**.
 
+---
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Inicio del Curso](../../README.md)  
+**Siguiente →**: [Junior Level 2: Estructuras de Control](../junior_2/README.md)
+
+---
+
 ## 💡 Consejos de Estudio
 
 - Practica cada concepto con ejemplos simples

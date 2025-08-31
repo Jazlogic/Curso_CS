@@ -1,4 +1,11 @@
-# 🚀 Senior Level 5: Arquitectura Limpia y Microservicios
+# 🏆 Senior Level 5: Arquitectura Limpia y Microservicios
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 4: Entity Framework](../senior_4/README.md)  
+**Siguiente →**: [Senior Level 6: Performance y Deployment](../senior_6/README.md)
+
+---
 
 ## 📋 Contenido del Nivel
 

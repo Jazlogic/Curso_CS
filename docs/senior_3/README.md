@@ -1,4 +1,11 @@
-# 🎯 Senior Level 3: APIs REST y Web APIs
+# 🏆 Senior Level 3: APIs REST y Web APIs
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 2: Testing y TDD](../senior_2/README.md)  
+**Siguiente →**: [Senior Level 4: Entity Framework](../senior_4/README.md)
+
+---
 
 ## 📚 Descripción
 

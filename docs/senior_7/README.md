@@ -1,4 +1,11 @@
-# 🚀 **Senior Level 7: Plataformas Empresariales Reales**
+# 🏆 Senior Level 7: Plataformas Empresariales Reales
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 6: Performance y Deployment](../senior_6/README.md)  
+**Siguiente →**: [Senior Level 8: Sistemas Avanzados](../senior_8/README.md)
+
+---
 
 ## 🎯 **Objetivo del Nivel**
 Construir plataformas empresariales complejas como **MussikOn** - un sistema de matching musical con arquitectura limpia, comunicación en tiempo real, y lógica de negocio avanzada.

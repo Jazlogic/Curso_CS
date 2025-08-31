@@ -1,4 +1,11 @@
-# 🚀 Senior Level 4: Entity Framework y Bases de Datos
+# 🏆 Senior Level 4: Entity Framework y Bases de Datos
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 3: APIs REST](../senior_3/README.md)  
+**Siguiente →**: [Senior Level 5: Arquitectura Limpia](../senior_5/README.md)
+
+---
 
 ## 📋 Contenido del Nivel
 

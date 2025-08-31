@@ -1,3 +1,12 @@
+# 🏆 Senior Level 9: Maestría Total del Desarrollo C#
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 8: Sistemas Avanzados](../senior_8/README.md)  
+**Siguiente →**: [Final del Curso](../../README.md)
+
+---
+
 # 🎵 **Senior Level 9: Implementación Específica de MussikOn**
 
 ## 🎯 **Objetivo del Nivel**

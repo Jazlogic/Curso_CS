@@ -1,4 +1,11 @@
-# 🎯 Mid Level 1: Programación Orientada a Objetos
+# 🚀 Mid Level 1: Programación Orientada a Objetos
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Junior Level 3: Arrays y Colecciones](../junior_3/README.md)  
+**Siguiente →**: [Mid Level 2: Herencia y Polimorfismo](../midLevel_2/README.md)
+
+---
 
 ## 📚 Descripción
 

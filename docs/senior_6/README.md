@@ -1,4 +1,11 @@
-# 🚀 Senior Level 6: Performance, Seguridad y Deployment
+# 🏆 Senior Level 6: Performance, Seguridad y Deployment
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 5: Arquitectura Limpia](../senior_5/README.md)  
+**Siguiente →**: [Senior Level 7: Plataformas Empresariales](../senior_7/README.md)
+
+---
 
 ## 📋 Contenido del Nivel
 

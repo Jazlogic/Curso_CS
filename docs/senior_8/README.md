@@ -1,4 +1,11 @@
-# 🚀 **Senior Level 8: Implementación y Deployment de Plataformas**
+# 🏆 Senior Level 8: Sistemas Avanzados y Escalabilidad
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 7: Plataformas Empresariales](../senior_7/README.md)  
+**Siguiente →**: [Senior Level 9: Maestría Total](../senior_9/README.md)
+
+---
 
 ## 🎯 **Objetivo del Nivel**
 Implementar y desplegar en producción una plataforma completa como **MussikOn**, incluyendo CI/CD, monitoreo, escalabilidad y mantenimiento en producción.

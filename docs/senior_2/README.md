@@ -1,4 +1,11 @@
-# 🚀 Senior Level 2: Testing y TDD
+# 🏆 Senior Level 2: Testing y TDD
+
+## 🧭 Navegación del Curso
+
+**← Anterior**: [Senior Level 1: Patrones de Diseño](../senior_1/README.md)  
+**Siguiente →**: [Senior Level 3: APIs REST](../senior_3/README.md)
+
+---
 
 ## 📋 Contenido del Nivel
 
