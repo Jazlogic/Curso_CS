@@ -1,547 +1,184 @@
-# 🚀 Mid Level 2: Herencia, Polimorfismo e Interfaces
+# 🚀 Módulo 5: Mid Level 2 - Arquitectura de Software y Patrones Avanzados
 
-## 🧭 Navegación del Curso
+## 📋 Información del Módulo
 
-- **⬅️ Anterior**: [Módulo 4: POO Básica](../midLevel_1/README.md)
-- **➡️ Siguiente**: [Módulo 6: Excepciones y Generics](../midLevel_3/README.md)
-- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
+- **Nivel**: Mid Level (Intermedio-Avanzado)
+- **Duración Total**: 20 horas
+- **Prerrequisitos**: Completar Módulo 4 (Mid Level 1)
+- **Tecnologías**: C# .NET, Visual Studio Code, .NET SDK, Entity Framework Core
 
----
+## 🎯 Descripción General
 
-## 📚 Descripción
+Este módulo representa un salto cualitativo en tu formación como desarrollador C#. Aquí profundizarás en arquitecturas de software empresariales, patrones de diseño avanzados, y técnicas de desarrollo que te prepararán para roles de desarrollador senior y arquitecto de software.
 
-En este nivel profundizarás en conceptos avanzados de POO: herencia, polimorfismo, interfaces y clases abstractas. Estos conceptos son fundamentales para crear arquitecturas de software robustas y mantenibles.
+## 📚 Estructura del Módulo
+
+| Clase | Tema | Duración | Nivel |
+|-------|------|----------|-------|
+| [Clase 1](clase_1_arquitectura_hexagonal.md) | Arquitectura Hexagonal (Ports & Adapters) | 2 horas | Intermedio |
+| [Clase 2](clase_2_event_sourcing.md) | Event Sourcing y CQRS Avanzado | 2 horas | Intermedio |
+| [Clase 3](clase_3_microservicios.md) | Arquitectura de Microservicios | 2 horas | Intermedio |
+| [Clase 4](clase_4_patrones_arquitectonicos.md) | Patrones Arquitectónicos | 2 horas | Intermedio |
+| [Clase 5](clase_5_domain_driven_design.md) | Domain Driven Design (DDD) | 2 horas | Intermedio |
+| [Clase 6](clase_6_async_streams.md) | Async Streams y IAsyncEnumerable | 2 horas | Intermedio |
+| [Clase 7](clase_7_source_generators.md) | Source Generators y Compile-time Code Generation | 2 horas | Intermedio |
+| [Clase 8](clase_8_high_performance.md) | High Performance Programming | 2 horas | Intermedio |
+| [Clase 9](clase_9_seguridad_avanzada.md) | Seguridad Avanzada en .NET | 2 horas | Intermedio |
+| [Clase 10](clase_10_proyecto_final.md) | Proyecto Final: Sistema de Gestión Empresarial | 2 horas | Intermedio |
 
 ## 🎯 Objetivos de Aprendizaje
 
-- Implementar herencia entre clases
-- Entender y usar polimorfismo
-- Crear y usar interfaces
-- Trabajar con clases abstractas
-- Implementar métodos virtuales y override
-- Crear jerarquías de clases bien estructuradas
+### Objetivos Generales
+- Dominar arquitecturas de software empresariales
+- Implementar patrones de diseño avanzados
+- Aplicar DDD en proyectos complejos
+- Optimizar aplicaciones para alto rendimiento
+- Implementar seguridad avanzada en .NET
+
+### Objetivos Específicos por Clase
+
+#### Clase 1: Arquitectura Hexagonal
+- Comprender los principios de Ports & Adapters
+- Implementar arquitectura hexagonal en C#
+- Separar lógica de negocio de infraestructura
+- Crear adaptadores para diferentes tecnologías
+
+#### Clase 2: Event Sourcing
+- Implementar Event Sourcing con CQRS
+- Gestionar el estado de la aplicación a través de eventos
+- Crear proyecciones de eventos
+- Implementar snapshots y reconstrucción de estado
+
+#### Clase 3: Microservicios
+- Diseñar arquitectura de microservicios
+- Implementar comunicación entre servicios
+- Gestionar transacciones distribuidas
+- Implementar circuit breakers y resiliencia
+
+#### Clase 4: Patrones Arquitectónicos
+- Implementar Repository Pattern avanzado
+- Aplicar Unit of Work Pattern
+- Implementar Specification Pattern
+- Crear arquitecturas modulares escalables
+
+#### Clase 5: Domain Driven Design
+- Aplicar principios de DDD
+- Implementar Value Objects y Entities
+- Crear Aggregates y Domain Services
+- Implementar Domain Events
+
+#### Clase 6: Async Streams
+- Dominar IAsyncEnumerable<T>
+- Implementar streaming asíncrono
+- Crear pipelines de procesamiento de datos
+- Optimizar el consumo de memoria
+
+#### Clase 7: Source Generators
+- Crear Source Generators personalizados
+- Generar código en tiempo de compilación
+- Implementar metaprogramación avanzada
+- Crear herramientas de desarrollo
+
+#### Clase 8: High Performance Programming
+- Optimizar código para rendimiento
+- Implementar técnicas de profiling
+- Usar Span<T> y Memory<T>
+- Implementar algoritmos de alto rendimiento
+
+#### Clase 9: Seguridad Avanzada
+- Implementar autenticación multifactor
+- Aplicar principios de seguridad defensiva
+- Implementar auditoría y logging de seguridad
+- Proteger contra ataques comunes
+
+#### Clase 10: Proyecto Final
+- Integrar todos los conceptos aprendidos
+- Implementar sistema empresarial completo
+- Aplicar mejores prácticas de arquitectura
+- Desplegar en entorno de producción
+
+## 🛠️ Herramientas y Tecnologías
+
+### Herramientas Principales
+- **Visual Studio Code** con extensiones C#
+- **.NET 8 SDK** (última versión LTS)
+- **Entity Framework Core** para ORM
+- **SQL Server** o **PostgreSQL** para base de datos
+- **Redis** para caché y sesiones
+- **Docker** para contenedores
+
+### Librerías y Frameworks
+- **MediatR** para implementación de CQRS
+- **AutoMapper** para mapeo de objetos
+- **FluentValidation** para validaciones
+- **Serilog** para logging estructurado
+- **Polly** para políticas de resiliencia
+- **BenchmarkDotNet** para benchmarking
+
+### Herramientas de Testing
+- **xUnit** para testing unitario
+- **Moq** para mocking
+- **TestContainers** para testing de integración
+- **SpecFlow** para BDD
+- **Coverlet** para cobertura de código
+
+## 📚 Recursos de Aprendizaje
+
+### Documentación Oficial
+- [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/)
+- [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/)
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+
+### Libros Recomendados
+- "Clean Architecture" - Robert C. Martin
+- "Domain-Driven Design" - Eric Evans
+- "Patterns of Enterprise Application Architecture" - Martin Fowler
+- "Building Microservices" - Sam Newman
 
-## 📖 Contenido Teórico
+### Recursos Online
+- [Pluralsight](https://www.pluralsight.com/) - Cursos de .NET
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) - Aprendizaje oficial
+- [Stack Overflow](https://stackoverflow.com/) - Comunidad de desarrolladores
 
-### 1. Herencia
+## 🎯 Evaluación y Progreso
 
-#### Concepto de Herencia
-La herencia permite que una clase (clase derivada) herede características de otra clase (clase base). Esto promueve la reutilización de código y establece una relación "es-un".
+### Criterios de Evaluación
+- **Implementación práctica** de conceptos (60%)
+- **Calidad del código** y arquitectura (25%)
+- **Testing y documentación** (15%)
 
-```csharp
-// Clase base (padre)
-public class Animal
-{
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    
-    public virtual void HacerSonido()
-    {
-        Console.WriteLine("Hace algún sonido");
-    }
-}
+### Proyectos de Evaluación
+- **Proyecto por clase**: Implementación práctica de conceptos
+- **Proyecto final**: Sistema empresarial completo
+- **Portfolio**: Código y documentación de todos los proyectos
 
-// Clase derivada (hija)
-public class Perro : Animal
-{
-    public string Raza { get; set; }
-    
-    public override void HacerSonido()
-    {
-        Console.WriteLine("¡Guau! ¡Guau!");
-    }
-    
-    public void Ladrar()
-    {
-        Console.WriteLine("¡Ladrando!");
-    }
-}
-```
+### Certificación
+Al completar este módulo, recibirás un certificado de **Mid Level 2 - Arquitectura de Software y Patrones Avanzados** en C#.
 
-#### Herencia Simple vs Múltiple
-```csharp
-// C# solo permite herencia simple de clases
-public class Mamifero : Animal // OK
-{
-    public bool TienePelo { get; set; }
-}
+## 🚀 Próximos Pasos
 
-// Pero permite implementar múltiples interfaces
-public class Perro : Animal, ICompanero, IEntrenable // OK
-{
-    // Implementación
-}
-```
+Después de completar este módulo, estarás preparado para:
+- **Módulo 6**: Senior Level 1 - Arquitectura de Sistemas Distribuidos
+- **Módulo 7**: Senior Level 2 - Cloud Native Development
+- **Módulo 8**: Senior Level 3 - DevOps y CI/CD Avanzado
+- **Módulo 9**: Expert Level - Patrones de Diseño Empresariales
 
-#### Constructor en Herencia
-```csharp
-public class Animal
-{
-    public string Nombre { get; set; }
-    
-    public Animal(string nombre)
-    {
-        Nombre = nombre;
-    }
-}
+## 📞 Soporte y Comunidad
 
-public class Perro : Animal
-{
-    public string Raza { get; set; }
-    
-    // Llamada al constructor de la clase base
-    public Perro(string nombre, string raza) : base(nombre)
-    {
-        Raza = raza;
-    }
-}
-```
+### Canales de Soporte
+- **Foro del curso**: Preguntas y respuestas
+- **Canal de Discord**: Comunidad en tiempo real
+- **Office Hours**: Sesiones de consulta semanales
+- **Code Reviews**: Revisión de código personalizada
 
-### 2. Polimorfismo
+### Comunidad
+- Únete a nuestra comunidad de desarrolladores C#
+- Comparte proyectos y experiencias
+- Participa en hackathons y desafíos de código
+- Conecta con otros desarrolladores del curso
 
-#### Polimorfismo de Inclusión
-```csharp
-public class Animal
-{
-    public virtual void HacerSonido()
-    {
-        Console.WriteLine("Hace algún sonido");
-    }
-}
+---
 
-public class Perro : Animal
-{
-    public override void HacerSonido()
-    {
-        Console.WriteLine("¡Guau! ¡Guau!");
-    }
-}
+**🎯 ¡Prepárate para el siguiente nivel en tu carrera como desarrollador C#!**
 
-public class Gato : Animal
-{
-    public override void HacerSonido()
-    {
-        Console.WriteLine("¡Miau! ¡Miau!");
-    }
-}
-
-// Uso del polimorfismo
-Animal[] animales = new Animal[]
-{
-    new Perro(),
-    new Gato(),
-    new Animal()
-};
-
-foreach (var animal in animales)
-{
-    animal.HacerSonido(); // Cada uno hace su sonido específico
-}
-```
-
-#### Polimorfismo de Sobrecarga
-```csharp
-public class Calculadora
-{
-    public int Sumar(int a, int b)
-    {
-        return a + b;
-    }
-    
-    public double Sumar(double a, double b)
-    {
-        return a + b;
-    }
-    
-    public string Sumar(string a, string b)
-    {
-        return a + b;
-    }
-}
-```
-
-### 3. Métodos Virtuales y Override
-
-#### Métodos Virtuales
-```csharp
-public class Forma
-{
-    public virtual double CalcularArea()
-    {
-        return 0;
-    }
-    
-    public virtual double CalcularPerimetro()
-    {
-        return 0;
-    }
-}
-
-public class Rectangulo : Forma
-{
-    public double Base { get; set; }
-    public double Altura { get; set; }
-    
-    public override double CalcularArea()
-    {
-        return Base * Altura;
-    }
-    
-    public override double CalcularPerimetro()
-    {
-        return 2 * (Base + Altura);
-    }
-}
-
-public class Circulo : Forma
-{
-    public double Radio { get; set; }
-    
-    public override double CalcularArea()
-    {
-        return Math.PI * Radio * Radio;
-    }
-    
-    public override double CalcularPerimetro()
-    {
-        return 2 * Math.PI * Radio;
-    }
-}
-```
-
-#### Métodos Sellados (Sealed)
-```csharp
-public class Forma
-{
-    public virtual void Dibujar()
-    {
-        Console.WriteLine("Dibujando forma");
-    }
-}
-
-public class Rectangulo : Forma
-{
-    public override void Dibujar()
-    {
-        Console.WriteLine("Dibujando rectángulo");
-    }
-}
-
-public class Cuadrado : Rectangulo
-{
-    // No se puede hacer override porque el método está sellado
-    // public override void Dibujar() { } // ERROR
-}
-```
-
-### 4. Interfaces
-
-#### Concepto de Interfaces
-Las interfaces definen un contrato que las clases deben implementar. Solo contienen declaraciones de métodos, propiedades, eventos e indexadores.
-
-```csharp
-public interface IReproducible
-{
-    void Reproducir();
-    void Pausar();
-    void Detener();
-    bool EstaReproduciendo { get; }
-}
-
-public class ReproductorMP3 : IReproducible
-{
-    public bool EstaReproduciendo { get; private set; }
-    
-    public void Reproducir()
-    {
-        EstaReproduciendo = true;
-        Console.WriteLine("Reproduciendo MP3...");
-    }
-    
-    public void Pausar()
-    {
-        EstaReproduciendo = false;
-        Console.WriteLine("MP3 pausado");
-    }
-    
-    public void Detener()
-    {
-        EstaReproduciendo = false;
-        Console.WriteLine("MP3 detenido");
-    }
-}
-```
-
-#### Interfaces Múltiples
-```csharp
-public interface IReproducible
-{
-    void Reproducir();
-}
-
-public interface IGrabable
-{
-    void Grabar();
-}
-
-public interface IConectable
-{
-    void Conectar();
-    void Desconectar();
-}
-
-public class Smartphone : IReproducible, IGrabable, IConectable
-{
-    public void Reproducir()
-    {
-        Console.WriteLine("Reproduciendo en smartphone");
-    }
-    
-    public void Grabar()
-    {
-        Console.WriteLine("Grabando con smartphone");
-    }
-    
-    public void Conectar()
-    {
-        Console.WriteLine("Smartphone conectado");
-    }
-    
-    public void Desconectar()
-    {
-        Console.WriteLine("Smartphone desconectado");
-    }
-}
-```
-
-#### Interfaces con Implementación por Defecto (C# 8.0+)
-```csharp
-public interface ILogger
-{
-    void Log(string mensaje);
-    
-    // Implementación por defecto
-    void LogError(string mensaje)
-    {
-        Log($"ERROR: {mensaje}");
-    }
-}
-
-public class ConsoleLogger : ILogger
-{
-    public void Log(string mensaje)
-    {
-        Console.WriteLine(mensaje);
-    }
-    
-    // LogError se hereda automáticamente
-}
-```
-
-### 5. Clases Abstractas
-
-#### Concepto de Clases Abstractas
-Las clases abstractas son clases que no se pueden instanciar directamente y pueden contener métodos abstractos que deben ser implementados por las clases derivadas.
-
-```csharp
-public abstract class Forma
-{
-    public string Color { get; set; }
-    
-    // Método abstracto (debe ser implementado)
-    public abstract double CalcularArea();
-    
-    // Método virtual (puede ser sobrescrito)
-    public virtual void Dibujar()
-    {
-        Console.WriteLine($"Dibujando forma de color {Color}");
-    }
-    
-    // Método concreto (implementación por defecto)
-    public void CambiarColor(string nuevoColor)
-    {
-        Color = nuevoColor;
-    }
-}
-
-public class Rectangulo : Forma
-{
-    public double Base { get; set; }
-    public double Altura { get; set; }
-    
-    public override double CalcularArea()
-    {
-        return Base * Altura;
-    }
-    
-    public override void Dibujar()
-    {
-        Console.WriteLine($"Dibujando rectángulo {Base}x{Altura} de color {Color}");
-    }
-}
-```
-
-#### Diferencias entre Interfaces y Clases Abstractas
-```csharp
-// Clase abstracta
-public abstract class Animal
-{
-    protected string nombre; // Puede tener campos
-    
-    public abstract void HacerSonido();
-    
-    public virtual void Mover()
-    {
-        Console.WriteLine("El animal se mueve");
-    }
-}
-
-// Interface
-public interface IAnimal
-{
-    void HacerSonido(); // Solo métodos
-    void Mover();
-    
-    // No puede tener campos ni implementación
-}
-```
-
-### 6. Patrones de Diseño Básicos
-
-#### Patrón Factory
-```csharp
-public interface IVehiculo
-{
-    void Arrancar();
-}
-
-public class Coche : IVehiculo
-{
-    public void Arrancar()
-    {
-        Console.WriteLine("Coche arrancando...");
-    }
-}
-
-public class Moto : IVehiculo
-{
-    public void Arrancar()
-    {
-        Console.WriteLine("Moto arrancando...");
-    }
-}
-
-public class VehiculoFactory
-{
-    public static IVehiculo CrearVehiculo(string tipo)
-    {
-        switch (tipo.ToLower())
-        {
-            case "coche":
-                return new Coche();
-            case "moto":
-                return new Moto();
-            default:
-                throw new ArgumentException("Tipo de vehículo no válido");
-        }
-    }
-}
-```
-
-#### Patrón Strategy
-```csharp
-public interface IEstrategiaPago
-{
-    void Pagar(decimal monto);
-}
-
-public class PagoEfectivo : IEstrategiaPago
-{
-    public void Pagar(decimal monto)
-    {
-        Console.WriteLine($"Pagando ${monto} en efectivo");
-    }
-}
-
-public class PagoTarjeta : IEstrategiaPago
-{
-    public void Pagar(decimal monto)
-    {
-        Console.WriteLine($"Pagando ${monto} con tarjeta");
-    }
-}
-
-public class Compra
-{
-    private IEstrategiaPago estrategiaPago;
-    
-    public void EstablecerEstrategiaPago(IEstrategiaPago estrategia)
-    {
-        estrategiaPago = estrategia;
-    }
-    
-    public void RealizarPago(decimal monto)
-    {
-        estrategiaPago?.Pagar(monto);
-    }
-}
-```
-
-## 🏋️ Ejercicios Prácticos
-
-### Ejercicio 1: Jerarquía de Empleados
-Crea una jerarquía de clases: Empleado (base), EmpleadoTiempoCompleto y EmpleadoTiempoParcial. Implementa métodos para calcular salario.
-
-### Ejercicio 2: Sistema de Formas Geométricas
-Implementa una jerarquía de formas: Forma (abstracta), Rectangulo, Circulo, Triangulo. Cada una debe calcular área y perímetro.
-
-### Ejercicio 3: Sistema de Notificaciones
-Crea interfaces para diferentes tipos de notificaciones (Email, SMS, Push) e implementa el patrón Strategy.
-
-### Ejercicio 4: Jerarquía de Animales
-Implementa una jerarquía de animales con métodos virtuales y override. Usa polimorfismo para manejar diferentes tipos.
-
-### Ejercicio 5: Sistema de Pagos
-Crea un sistema de pagos con diferentes métodos (Efectivo, Tarjeta, Transferencia) usando interfaces.
-
-### Ejercicio 6: Factory de Vehículos
-Implementa el patrón Factory para crear diferentes tipos de vehículos con propiedades específicas.
-
-### Ejercicio 7: Sistema de Logging
-Crea un sistema de logging con diferentes implementaciones (Consola, Archivo, Base de Datos) usando interfaces.
-
-### Ejercicio 8: Jerarquía de Usuarios
-Implementa un sistema de usuarios con diferentes roles (Usuario, Admin, Moderador) usando herencia.
-
-### Ejercicio 9: Sistema de Reportes
-Crea un sistema de reportes con diferentes formatos (PDF, Excel, HTML) usando el patrón Strategy.
-
-### Ejercicio 10: Proyecto Integrador - Sistema de Biblioteca Avanzado
-Implementa un sistema completo que incluya:
-- Jerarquía de usuarios (Usuario, Bibliotecario, Admin)
-- Diferentes tipos de materiales (Libro, Revista, DVD)
-- Sistema de préstamos con diferentes estrategias
-- Interfaces para diferentes operaciones
-- Patrones de diseño aplicados
-
-## 📝 Quiz de Autoevaluación
-
-1. ¿Cuál es la diferencia entre herencia e interfaces?
-2. ¿Qué significa polimorfismo de inclusión?
-3. ¿Cuándo usarías una clase abstracta en lugar de una interfaz?
-4. ¿Qué es el patrón Factory y cuándo lo usarías?
-5. ¿Por qué es importante usar métodos virtuales en la clase base?
-
-## 🚀 Siguiente Nivel
-
-Una vez que hayas completado todos los ejercicios y comprendas los conceptos, estarás listo para el **Mid Level 3: Manejo de Excepciones y Generics**.
-
-## 💡 Consejos de Estudio
-
-- Practica creando jerarquías de clases realistas
-- Experimenta con diferentes patrones de diseño
-- Usa interfaces para definir contratos claros
-- Implementa polimorfismo en situaciones prácticas
-- Crea diagramas de clases para visualizar las relaciones
-
-¡Estás construyendo una base sólida para el desarrollo profesional! 🚀
+**📚 [Comenzar: Clase 1 - Arquitectura Hexagonal](clase_1_arquitectura_hexagonal.md)**

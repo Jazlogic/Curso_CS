@@ -1,412 +1,234 @@
-# 🚀 Mid Level 1: Programación Orientada a Objetos
+# 🚀 Módulo 4: Mid Level 1 - Programación Avanzada y Patrones de Diseño
 
-## 🧭 Navegación del Curso
+## 📋 Información del Módulo
 
-- **⬅️ Anterior**: [Módulo 3: Colecciones Básicas](../junior_3/README.md)
-- **➡️ Siguiente**: [Módulo 5: Herencia y Polimorfismo](../midLevel_2/README.md)
-- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
+- **Nivel**: Mid Level (Intermedio-Avanzado)
+- **Duración Total**: 20 horas
+- **Prerrequisitos**: Completar Módulo 3 (Junior Level 3)
+- **Tecnologías**: C# .NET, Visual Studio Code, .NET SDK
 
----
+## 🎯 Descripción General
 
-## 📚 Descripción
-
-En este nivel aprenderás los fundamentos de la Programación Orientada a Objetos (POO) en C#: clases, objetos, encapsulación, constructores y métodos. Este es un paso crucial para convertirte en un desarrollador más avanzado.
+Este módulo representa un salto significativo en tu formación como desarrollador C#. Aquí profundizarás en conceptos avanzados de programación, patrones de diseño intermedios, y técnicas de desarrollo profesional que te prepararán para roles de desarrollador intermedio y senior.
 
 ## 🎯 Objetivos de Aprendizaje
 
-- Entender los conceptos fundamentales de POO
-- Crear clases y objetos en C#
-- Implementar encapsulación con propiedades
-- Usar constructores y sobrecarga de métodos
-- Entender el concepto de this y static
-- Crear aplicaciones modulares y reutilizables
+### **Objetivos Principales:**
+- Dominar patrones de diseño intermedios y avanzados
+- Implementar programación asíncrona y paralela
+- Crear arquitecturas de software escalables y mantenibles
+- Aplicar principios de clean code y refactoring
+- Desarrollar sistemas con testing avanzado
 
-## 📖 Contenido Teórico
+### **Objetivos Específicos:**
+- Implementar patrones como Strategy, Command, Chain of Responsibility
+- Dominar async/await y programación paralela con Task Parallel Library
+- Crear sistemas de logging y monitoreo robustos
+- Aplicar técnicas de refactoring y clean architecture
+- Implementar testing de integración y testing de comportamiento
 
-### 1. Conceptos Fundamentales de POO
+---
 
-#### ¿Qué es la Programación Orientada a Objetos?
-La POO es un paradigma de programación que organiza el código en objetos que contienen datos y comportamiento. Los principios fundamentales son:
+## 📚 Estructura del Módulo
 
-- **Encapsulación**: Ocultar datos y exponer solo lo necesario
-- **Abstracción**: Simplificar la complejidad del mundo real
-- **Herencia**: Reutilizar código de clases existentes
-- **Polimorfismo**: Usar diferentes implementaciones de la misma interfaz
+| Clase | Tema | Duración | Nivel |
+|-------|------|----------|-------|
+| [Clase 1](clase_1_patrones_diseno_intermedios.md) | Patrones de Diseño Intermedios | 2h | Intermedio |
+| [Clase 2](clase_2_programacion_asincrona_avanzada.md) | Programación Asíncrona Avanzada | 2h | Intermedio |
+| [Clase 3](clase_3_programacion_paralela.md) | Programación Paralela y TPL | 2h | Intermedio |
+| [Clase 4](clase_4_clean_architecture.md) | Clean Architecture | 2h | Intermedio |
+| [Clase 5](clase_5_dependency_injection.md) | Dependency Injection Avanzada | 2h | Intermedio |
+| [Clase 6](clase_6_logging_monitoreo.md) | Logging y Monitoreo | 2h | Intermedio |
+| [Clase 7](clase_7_refactoring_clean_code.md) | Refactoring y Clean Code | 2h | Intermedio |
+| [Clase 8](clase_8_testing_integracion.md) | Testing de Integración | 2h | Intermedio |
+| [Clase 9](clase_9_testing_comportamiento.md) | Testing de Comportamiento (BDD) | 2h | Intermedio |
+| [Clase 10](clase_10_proyecto_final.md) | Proyecto Final: Sistema de E-commerce | 2h | Intermedio |
 
-#### Clases vs Objetos
-```csharp
-// Clase: Es el "molde" o "plantilla"
-public class Persona
-{
-    // Propiedades y métodos van aquí
-}
+---
 
-// Objeto: Es una "instancia" de la clase
-Persona juan = new Persona(); // juan es un objeto de tipo Persona
-```
+## 🚀 Navegación Rápida
 
-### 2. Creación de Clases
+### **Navegación entre Módulos:**
+- **← Anterior**: [Módulo 3 - Junior Level 3](../junior_3/README.md)
+- **Actual**: **Módulo 4 - Mid Level 1** ← Estás aquí
+- **Siguiente →**: [Módulo 5 - Mid Level 2](../midLevel_2/README.md)
 
-#### Estructura Básica de una Clase
-```csharp
-[modificadores] class NombreClase
-{
-    // Campos (variables de instancia)
-    private string nombre;
-    private int edad;
-    
-    // Propiedades
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    
-    // Métodos
-    public void Saludar()
-    {
-        Console.WriteLine($"¡Hola! Soy {Nombre}");
-    }
-    
-    // Constructor
-    public NombreClase()
-    {
-        // Código de inicialización
-    }
-}
-```
+### **Navegación Interna:**
+- [Clase 1](clase_1_patrones_diseno_intermedios.md) → [Clase 2](clase_2_programacion_asincrona_avanzada.md) → [Clase 3](clase_3_programacion_paralela.md) → [Clase 4](clase_4_clean_architecture.md) → [Clase 5](clase_5_dependency_injection.md) → [Clase 6](clase_6_logging_monitoreo.md) → [Clase 7](clase_7_refactoring_clean_code.md) → [Clase 8](clase_8_testing_integracion.md) → [Clase 9](clase_9_testing_comportamiento.md) → [Clase 10](clase_10_proyecto_final.md)
 
-#### Modificadores de Acceso
-```csharp
-public class Ejemplo
-{
-    public string publico;        // Accesible desde cualquier lugar
-    private string privado;       // Solo accesible desde la misma clase
-    protected string protegido;   // Accesible desde la clase y sus derivadas
-    internal string interno;      // Accesible desde el mismo assembly
-    protected internal string protegidoInterno; // Combinación de ambos
-}
-```
+---
 
-### 3. Campos y Propiedades
+## 📚 Contenido Detallado
 
-#### Campos (Fields)
-```csharp
-public class Producto
-{
-    // Campos privados (encapsulación)
-    private string nombre;
-    private decimal precio;
-    private int stock;
-    
-    // Campo constante
-    private const decimal IVA = 0.21m;
-    
-    // Campo readonly (solo se puede asignar en constructor)
-    private readonly DateTime fechaCreacion;
-}
-```
+### **Clase 1: Patrones de Diseño Intermedios**
+- **Strategy Pattern**: Implementación de algoritmos intercambiables
+- **Command Pattern**: Encapsulación de solicitudes como objetos
+- **Chain of Responsibility**: Manejo de solicitudes en cadena
+- **Template Method**: Definición de esqueleto de algoritmos
+- **State Pattern**: Cambio de comportamiento según estado interno
 
-#### Propiedades
-```csharp
-public class Producto
-{
-    private string nombre;
-    private decimal precio;
-    
-    // Propiedad auto-implementada
-    public string Nombre { get; set; }
-    
-    // Propiedad con lógica personalizada
-    public decimal Precio
-    {
-        get { return precio; }
-        set 
-        { 
-            if (value >= 0)
-                precio = value;
-            else
-                throw new ArgumentException("El precio no puede ser negativo");
-        }
-    }
-    
-    // Propiedad de solo lectura
-    public decimal PrecioConIVA => precio * (1 + 0.21m);
-    
-    // Propiedad de solo escritura
-    public string CodigoInterno { set; }
-}
-```
+### **Clase 2: Programación Asíncrona Avanzada**
+- **Async/Await Avanzado**: Patrones y mejores prácticas
+- **ConfigureAwait**: Control del contexto de sincronización
+- **CancellationToken**: Cancelación de operaciones asíncronas
+- **ValueTask**: Optimización para operaciones síncronas
+- **Async Streams**: Procesamiento asíncrono de secuencias
 
-### 4. Constructores
+### **Clase 3: Programación Paralela y TPL**
+- **Task Parallel Library (TPL)**: Paralelización de código
+- **Parallel.For/ForEach**: Bucles paralelos
+- **PLINQ**: LINQ paralelo para consultas
+- **Dataflow**: Pipeline de procesamiento de datos
+- **Sincronización**: Locks, semáforos y colecciones thread-safe
 
-#### Constructor por Defecto
-```csharp
-public class Persona
-{
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    
-    // Constructor por defecto (se crea automáticamente si no hay otros)
-    public Persona()
-    {
-        // Inicialización por defecto
-    }
-}
-```
+### **Clase 4: Clean Architecture**
+- **Principios SOLID Avanzados**: Aplicación en arquitecturas complejas
+- **Separación de Capas**: Domain, Application, Infrastructure, Presentation
+- **Inversión de Dependencias**: DIP en la práctica
+- **CQRS**: Command Query Responsibility Segregation
+- **Event Sourcing**: Patrón para auditoría y trazabilidad
 
-#### Constructor con Parámetros
-```csharp
-public class Persona
-{
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    
-    public Persona(string nombre, int edad)
-    {
-        Nombre = nombre;
-        Edad = edad;
-    }
-}
-```
+### **Clase 5: Dependency Injection Avanzada**
+- **Service Lifetime**: Singleton, Scoped, Transient
+- **Factory Pattern**: Creación dinámica de objetos
+- **Decorator Pattern**: Extensión de funcionalidad
+- **Interception**: AOP con DI containers
+- **Configuration**: Inyección de configuración
 
-#### Sobrecarga de Constructores
-```csharp
-public class Persona
-{
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    public string Email { get; set; }
-    
-    // Constructor básico
-    public Persona(string nombre, int edad)
-    {
-        Nombre = nombre;
-        Edad = edad;
-    }
-    
-    // Constructor completo
-    public Persona(string nombre, int edad, string email) : this(nombre, edad)
-    {
-        Email = email;
-    }
-    
-    // Constructor de copia
-    public Persona(Persona otra) : this(otra.Nombre, otra.Edad, otra.Email)
-    {
-    }
-}
-```
+### **Clase 6: Logging y Monitoreo**
+- **Structured Logging**: Logging estructurado con Serilog
+- **Log Levels**: Debug, Info, Warning, Error, Fatal
+- **Correlation IDs**: Trazabilidad de operaciones
+- **Performance Counters**: Métricas de rendimiento
+- **Health Checks**: Verificación de salud del sistema
 
-### 5. Métodos
+### **Clase 7: Refactoring y Clean Code**
+- **Code Smells**: Identificación de problemas en el código
+- **Refactoring Techniques**: Extracción, consolidación, renombrado
+- **Clean Code Principles**: Nombres significativos, funciones pequeñas
+- **Code Reviews**: Proceso de revisión de código
+- **Technical Debt**: Gestión de deuda técnica
 
-#### Tipos de Métodos
-```csharp
-public class Calculadora
-{
-    // Método de instancia
-    public int Sumar(int a, int b)
-    {
-        return a + b;
-    }
-    
-    // Método estático
-    public static int Multiplicar(int a, int b)
-    {
-        return a * b;
-    }
-    
-    // Método privado (solo usado internamente)
-    private void ValidarParametros(int a, int b)
-    {
-        if (a < 0 || b < 0)
-            throw new ArgumentException("Los números deben ser positivos");
-    }
-    
-    // Método con parámetros opcionales
-    public decimal CalcularPrecio(decimal precio, decimal descuento = 0)
-    {
-        return precio * (1 - descuento);
-    }
-}
-```
+### **Clase 8: Testing de Integración**
+- **Integration Testing**: Testing de componentes integrados
+- **Test Containers**: Bases de datos en contenedores para testing
+- **Mocking External Services**: Simulación de servicios externos
+- **Test Data Management**: Gestión de datos de prueba
+- **CI/CD Integration**: Integración con pipelines de CI/CD
 
-#### Sobrecarga de Métodos
-```csharp
-public class Calculadora
-{
-    public int Sumar(int a, int b)
-    {
-        return a + b;
-    }
-    
-    public int Sumar(int a, int b, int c)
-    {
-        return a + b + c;
-    }
-    
-    public double Sumar(double a, double b)
-    {
-        return a + b;
-    }
-    
-    public string Sumar(string a, string b)
-    {
-        return a + b; // Concatenación
-    }
-}
-```
+### **Clase 9: Testing de Comportamiento (BDD)**
+- **Behavior Driven Development**: Desarrollo guiado por comportamiento
+- **SpecFlow**: Framework BDD para .NET
+- **Gherkin Syntax**: Sintaxis Given-When-Then
+- **Step Definitions**: Implementación de pasos de comportamiento
+- **Living Documentation**: Documentación viva y ejecutable
 
-### 6. Palabra Clave this
+### **Clase 10: Proyecto Final Integrador**
+- **Sistema de E-commerce**: Aplicación completa integrando todos los conceptos
+- **Arquitectura Limpia**: Implementación de Clean Architecture
+- **Testing Completo**: Unit, Integration y Behavior testing
+- **CI/CD Pipeline**: Pipeline de integración continua
+- **Deployment**: Despliegue en diferentes entornos
 
-```csharp
-public class Persona
-{
-    private string nombre;
-    private int edad;
-    
-    public Persona(string nombre, int edad)
-    {
-        this.nombre = nombre; // this se refiere a la instancia actual
-        this.edad = edad;
-    }
-    
-    public void CompararEdad(Persona otra)
-    {
-        if (this.edad > otra.edad)
-            Console.WriteLine($"{this.nombre} es mayor que {otra.nombre}");
-    }
-}
-```
+---
 
-### 7. Miembros Estáticos
+## 🎯 Resultados del Aprendizaje
 
-```csharp
-public class Utilidades
-{
-    // Campo estático (compartido entre todas las instancias)
-    public static int contadorInstancias = 0;
-    
-    // Propiedad estática
-    public static DateTime FechaActual => DateTime.Now;
-    
-    // Constructor estático (se ejecuta una sola vez)
-    static Utilidades()
-    {
-        Console.WriteLine("Clase Utilidades inicializada");
-    }
-    
-    // Método estático
-    public static bool EsPar(int numero)
-    {
-        return numero % 2 == 0;
-    }
-    
-    // Método de instancia que usa miembros estáticos
-    public void IncrementarContador()
-    {
-        contadorInstancias++;
-    }
-}
+### **Al Finalizar el Módulo Serás Capaz de:**
+- ✅ Diseñar e implementar patrones de diseño intermedios y avanzados
+- ✅ Crear aplicaciones asíncronas y paralelas eficientes
+- ✅ Implementar arquitecturas de software limpias y escalables
+- ✅ Aplicar técnicas de refactoring y clean code
+- ✅ Desarrollar sistemas con testing avanzado y CI/CD
+- ✅ Crear aplicaciones profesionales listas para producción
 
-// Uso de miembros estáticos
-int numero = 10;
-bool esPar = Utilidades.EsPar(numero); // No necesitas crear una instancia
-```
+### **Habilidades Técnicas Adquiridas:**
+- **Patrones de Diseño**: Dominio de patrones intermedios y avanzados
+- **Programación Asíncrona**: Control total sobre operaciones asíncronas
+- **Arquitectura de Software**: Diseño de sistemas complejos y mantenibles
+- **Testing Avanzado**: Testing unitario, de integración y de comportamiento
+- **DevOps**: Integración continua y despliegue automático
 
-### 8. Encapsulación Avanzada
+---
 
-#### Propiedades con Validación
-```csharp
-public class CuentaBancaria
-{
-    private decimal saldo;
-    
-    public decimal Saldo
-    {
-        get { return saldo; }
-        private set // Solo se puede modificar desde dentro de la clase
-        {
-            if (value < 0)
-                throw new InvalidOperationException("El saldo no puede ser negativo");
-            saldo = value;
-        }
-    }
-    
-    public void Depositar(decimal monto)
-    {
-        if (monto <= 0)
-            throw new ArgumentException("El monto debe ser positivo");
-        
-        Saldo += monto; // Usa la propiedad, no el campo directamente
-    }
-    
-    public bool Retirar(decimal monto)
-    {
-        if (monto <= 0)
-            throw new ArgumentException("El monto debe ser positivo");
-        
-        if (monto > Saldo)
-            return false;
-        
-        Saldo -= monto;
-        return true;
-    }
-}
-```
+## 🛠️ Herramientas y Recursos
 
-## 🏋️ Ejercicios Prácticos
+### **Herramientas Principales:**
+- **IDE**: Visual Studio Code con extensiones C#
+- **SDK**: .NET 8.0 o superior
+- **Testing**: MSTest, NUnit, Moq, SpecFlow
+- **Logging**: Serilog, NLog
+- **DI Container**: Microsoft.Extensions.DependencyInjection
 
-### Ejercicio 1: Clase Rectángulo
-Crea una clase Rectángulo con propiedades para base y altura, y métodos para calcular área y perímetro.
+### **Recursos Adicionales:**
+- **Documentación**: Microsoft Docs, .NET Documentation
+- **Patrones**: Gang of Four Design Patterns
+- **Clean Code**: Robert C. Martin's Clean Code
+- **Testing**: The Art of Unit Testing
+- **Arquitectura**: Clean Architecture by Robert C. Martin
 
-### Ejercicio 2: Clase Estudiante
-Implementa una clase Estudiante con nombre, edad, calificaciones y métodos para calcular promedio y determinar si aprobó.
+---
 
-### Ejercicio 3: Clase Banco
-Crea una clase Banco que maneje cuentas bancarias con métodos para depositar, retirar y consultar saldo.
+## 📊 Evaluación y Práctica
 
-### Ejercicio 4: Clase Calculadora Avanzada
-Implementa una calculadora con métodos estáticos para operaciones matemáticas y métodos de instancia para historial.
+### **Criterios de Evaluación:**
+- **Implementación de Patrones**: 25%
+- **Programación Asíncrona**: 20%
+- **Arquitectura y Diseño**: 25%
+- **Testing y Calidad**: 20%
+- **Proyecto Final**: 10%
 
-### Ejercicio 5: Clase Producto con Validación
-Crea una clase Producto con validaciones para precio, stock y métodos para actualizar inventario.
+### **Actividades Prácticas:**
+- **Ejercicios Individuales**: Implementación de patrones y conceptos
+- **Proyectos Grupales**: Desarrollo colaborativo de sistemas
+- **Code Reviews**: Revisión de código entre pares
+- **Presentaciones**: Exposición de soluciones y enfoques
+- **Proyecto Final**: Sistema completo de e-commerce
 
-### Ejercicio 6: Clase Persona con Constructores
-Implementa múltiples constructores para la clase Persona y un método de copia.
+---
 
-### Ejercicio 7: Clase Utilidades Matemáticas
-Crea una clase estática con métodos para cálculos matemáticos comunes (factorial, potencia, etc.).
+## 🚀 Próximos Pasos
 
-### Ejercicio 8: Clase Agenda de Contactos
-Implementa una agenda que permita agregar, buscar y eliminar contactos usando encapsulación.
+### **Después de Completar Este Módulo:**
+- **Módulo 5**: Mid Level 2 - Microservicios y APIs
+- **Módulo 6**: Mid Level 3 - Bases de Datos Avanzadas
+- **Módulo 7**: Mid Level 4 - Cloud y DevOps
+- **Módulo 8**: Senior Level 1 - Arquitecturas Empresariales
+- **Módulo 9**: Senior Level 2 - Performance y Escalabilidad
+- **Módulo 10**: Senior Level 3 - Liderazgo Técnico
 
-### Ejercicio 9: Clase Biblioteca
-Crea un sistema de biblioteca con clases para Libro, Usuario y Préstamo.
+### **Oportunidades de Carrera:**
+- **Desarrollador C# Intermedio**: Roles en empresas de desarrollo
+- **Arquitecto de Software Junior**: Diseño de sistemas complejos
+- **Tech Lead**: Liderazgo técnico en equipos de desarrollo
+- **Consultor de Desarrollo**: Asesoría en mejores prácticas
 
-### Ejercicio 10: Proyecto Integrador - Sistema de Gestión de Empleados
-Implementa un sistema completo que incluya:
-- Clase Empleado con propiedades y métodos
-- Cálculo de salario con bonificaciones
-- Gestión de departamentos
-- Reportes y estadísticas
-- Validaciones y manejo de errores
+---
 
-## 📝 Quiz de Autoevaluación
+## 💡 Consejos para el Éxito
 
-1. ¿Cuál es la diferencia entre una clase y un objeto?
-2. ¿Qué significa encapsulación en POO?
-3. ¿Cuándo usarías métodos estáticos?
-4. ¿Qué es la sobrecarga de métodos?
-5. ¿Por qué es importante usar propiedades en lugar de campos públicos?
+### **Durante el Módulo:**
+1. **Practica Constantemente**: Implementa cada patrón en proyectos personales
+2. **Lee Código de Otros**: Analiza proyectos open source para aprender patrones
+3. **Participa en Code Reviews**: Aprende de la retroalimentación de otros
+4. **Experimenta con Arquitecturas**: Prueba diferentes enfoques de diseño
+5. **Mantén Testing**: Nunca dejes de escribir tests para tu código
 
-## 🚀 Siguiente Nivel
+### **Para el Futuro:**
+- **Mantente Actualizado**: Sigue las tendencias en desarrollo de software
+- **Contribuye a Open Source**: Participa en proyectos de la comunidad
+- **Networking**: Conecta con otros desarrolladores y arquitectos
+- **Certificaciones**: Considera certificaciones de Microsoft o AWS
+- **Especialización**: Encuentra tu nicho en el desarrollo de software
 
-Una vez que hayas completado todos los ejercicios y comprendas los conceptos, estarás listo para el **Mid Level 2: Herencia, Polimorfismo e Interfaces**.
+---
 
-## 💡 Consejos de Estudio
+## 🎯 ¡Comienza tu Viaje hacia el Nivel Intermedio!
 
-- Practica creando diferentes tipos de clases
-- Experimenta con diferentes niveles de encapsulación
-- Usa constructores para inicializar objetos correctamente
-- Implementa validaciones en las propiedades
-- Crea relaciones entre clases para entender mejor la POO
+**Este módulo te transformará de un desarrollador junior a un desarrollador intermedio competente, preparándote para roles más desafiantes y responsabilidades mayores en el desarrollo de software.**
 
-¡Estás avanzando hacia un nivel más profesional de desarrollo! 🚀
+**¿Listo para el siguiente nivel? ¡Empecemos con la [Clase 1: Patrones de Diseño Intermedios](clase_1_patrones_diseno_intermedios.md)! 🚀**
+
+---
+
+**📚 [Volver al Índice Completo](../../INDICE_COMPLETO.md) | [Navegación Rápida](../../NAVEGACION_RAPIDA.md)**
