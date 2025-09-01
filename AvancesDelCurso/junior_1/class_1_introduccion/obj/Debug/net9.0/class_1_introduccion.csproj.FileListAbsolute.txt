@@ -1,0 +1,15 @@
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\bin\Debug\net9.0\class_1_introduccion.exe
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\bin\Debug\net9.0\class_1_introduccion.deps.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\bin\Debug\net9.0\class_1_introduccion.runtimeconfig.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\bin\Debug\net9.0\class_1_introduccion.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\bin\Debug\net9.0\class_1_introduccion.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.AssemblyInfoInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.AssemblyInfo.cs
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.csproj.CoreCompileInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.sourcelink.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\refint\class_1_introduccion.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\class_1_introduccion.genruntimeconfig.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_1_introduccion\obj\Debug\net9.0\ref\class_1_introduccion.dll
