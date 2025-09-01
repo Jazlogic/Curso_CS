@@ -1,262 +1,195 @@
-# 🎯 Junior Level 2: Estructuras de Control y Funciones
+# Módulo 2: Programación Orientada a Objetos Avanzada - Nivel Junior
 
-## 🧭 Navegación del Curso
+## Descripción
+Módulo intermedio que profundiza en los conceptos de POO, incluyendo herencia, polimorfismo, interfaces, estructuras, enums y manejo avanzado de clases en C#.
 
-- **⬅️ Anterior**: [Módulo 1: Fundamentos Básicos](../junior_1/README.md)
-- **➡️ Siguiente**: [Módulo 3: Colecciones Básicas](../junior_3/README.md)
-- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
+## Objetivos del Módulo
+- Comprender y aplicar herencia entre clases
+- Implementar polimorfismo y métodos virtuales
+- Trabajar con interfaces y contratos
+- Crear y usar estructuras y enumeraciones
+- Dominar conceptos avanzados de POO
+- Aplicar principios SOLID básicos
+
+## Prerrequisitos
+- Completar Módulo 1: Fundamentos de C#
+- Comprensión básica de clases y objetos
+- Conocimiento de métodos y propiedades
+
+## Tecnologías y Herramientas
+- **.NET 8.0**: Framework de desarrollo
+- **Visual Studio Code**: Editor de código
+- **C#**: Lenguaje de programación
+- **Conceptos POO**: Herencia, polimorfismo, interfaces
+
+## Estructura del Módulo
+
+### 📚 Clases Disponibles
+
+| Clase | Título | Descripción | Duración Estimada |
+|-------|--------|-------------|-------------------|
+| [Clase 1](clase_1_herencia.md) | Herencia en C# | Conceptos de herencia, clases base y derivadas | 3-4 horas |
+| [Clase 2](clase_2_polimorfismo.md) | Polimorfismo y Métodos Virtuales | Polimorfismo, métodos virtuales y override | 3-4 horas |
+| [Clase 3](clase_3_interfaces.md) | Interfaces en C# | Definición e implementación de interfaces | 3-4 horas |
+| [Clase 4](clase_4_estructuras.md) | Estructuras y Enums | Structs, enums y diferencias con clases | 2-3 horas |
+| [Clase 5](clase_5_abstractas.md) | Clases Abstractas | Clases abstractas y métodos abstractos | 2-3 horas |
+| [Clase 6](clase_6_sealed.md) | Clases Selladas y Parciales | Clases sealed, partial y modificadores | 2-3 horas |
+| [Clase 7](clase_7_principios_solid.md) | Principios SOLID Básicos | Introducción a principios de diseño | 3-4 horas |
+| [Clase 8](clase_8_genericos_avanzados.md) | Genéricos Avanzados | Colecciones genéricas y tipos personalizados | 3-4 horas |
+| [Clase 9](clase_9_delegates.md) | Delegados y Eventos | Delegados, eventos y callbacks | 3-4 horas |
+| [Clase 10](clase_10_proyecto_poo.md) | Proyecto Integrador POO | Aplicación completa usando todos los conceptos | 4-5 horas |
+
+## 🚀 Navegación Rápida
+
+### **Empezar Aquí** → [Clase 1: Herencia en C#](clase_1_herencia.md)
+
+### **Continuar con** → [Clase 2: Polimorfismo y Métodos Virtuales](clase_2_polimorfismo.md)
+
+### **Conceptos POO** → [Clase 3: Interfaces](clase_3_interfaces.md) → [Clase 4: Estructuras y Enums](clase_4_estructuras.md)
+
+### **Clases Avanzadas** → [Clase 5: Clases Abstractas](clase_5_abstractas.md) → [Clase 6: Clases Selladas y Parciales](clase_6_sealed.md)
+
+### **Principios de Diseño** → [Clase 7: Principios SOLID Básicos](clase_7_principios_solid.md)
+
+### **Características Avanzadas** → [Clase 8: Genéricos Avanzados](clase_8_genericos_avanzados.md) → [Clase 9: Delegados y Eventos](clase_9_delegates.md)
+
+### **Proyecto Final** → [Clase 10: Proyecto Integrador POO](clase_10_proyecto_poo.md)
+
+## 📋 Contenido Detallado
+
+### **Clase 1: Herencia en C#**
+- ¿Qué es la herencia y por qué es importante?
+- Crear jerarquías de clases
+- Clases base y derivadas
+- Constructor de clases derivadas
+
+### **Clase 2: Polimorfismo y Métodos Virtuales**
+- Concepto de polimorfismo
+- Métodos virtuales y override
+- Polimorfismo en tiempo de ejecución
+- Uso de base y sealed
+
+### **Clase 3: Interfaces en C#**
+- ¿Qué son las interfaces?
+- Definir e implementar interfaces
+- Múltiples implementaciones
+- Interfaces vs. herencia
+
+### **Clase 4: Estructuras y Enums**
+- Diferencias entre structs y clases
+- Cuándo usar estructuras
+- Enumeraciones y sus usos
+- Structs como tipos de valor
+
+### **Clase 5: Clases Abstractas**
+- Clases abstractas vs. interfaces
+- Métodos abstractos
+- Implementación parcial
+- Uso de clases abstractas
+
+### **Clase 6: Clases Selladas y Parciales**
+- Clases sealed para prevenir herencia
+- Clases partial para dividir código
+- Modificadores de acceso avanzados
+- Mejores prácticas
+
+### **Clase 7: Principios SOLID Básicos**
+- Single Responsibility Principle
+- Open/Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+### **Clase 8: Genéricos Avanzados**
+- Colecciones genéricas avanzadas
+- Crear tipos genéricos personalizados
+- Restricciones en genéricos
+- Genéricos con interfaces
+
+### **Clase 9: Delegados y Eventos**
+- ¿Qué son los delegados?
+- Crear y usar delegados
+- Eventos y sus patrones
+- Callbacks y programación asíncrona
+
+### **Clase 10: Proyecto Integrador POO**
+- Sistema de gestión de biblioteca
+- Aplicación de todos los conceptos POO
+- Arquitectura de clases
+- Implementación completa
+
+## 🎯 Resultados del Aprendizaje
+
+Al completar este módulo, serás capaz de:
+
+✅ **Crear jerarquías de clases con herencia**
+✅ **Implementar polimorfismo y métodos virtuales**
+✅ **Diseñar e implementar interfaces**
+✅ **Trabajar con estructuras y enumeraciones**
+✅ **Crear clases abstractas y selladas**
+✅ **Aplicar principios SOLID básicos**
+✅ **Usar genéricos avanzados**
+✅ **Implementar delegados y eventos**
+✅ **Desarrollar aplicaciones POO completas**
+
+## 🛠️ Herramientas y Recursos
+
+### **Entorno de Desarrollo**
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [C# Extension para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+
+### **Recursos de Aprendizaje**
+- [POO en C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
+- [Herencia en C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance)
+- [Interfaces en C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/)
+
+### **Comunidad y Soporte**
+- [Stack Overflow - C# POO](https://stackoverflow.com/questions/tagged/c%23+oop)
+- [Reddit - r/csharp](https://www.reddit.com/r/csharp/)
+- [Discord - C# Community](https://discord.gg/csharp)
+
+## 📝 Evaluación y Práctica
+
+### **Ejercicios por Clase**
+Cada clase incluye ejercicios prácticos para reforzar el aprendizaje:
+- Ejercicios de herencia y polimorfismo
+- Implementación de interfaces
+- Creación de jerarquías de clases
+- Proyectos POO pequeños
+
+### **Proyecto Final del Módulo**
+Al completar todas las clases, desarrollarás un sistema de gestión de biblioteca que integre todos los conceptos POO aprendidos.
+
+## 🚀 Próximos Pasos
+
+Después de completar este módulo, estarás listo para continuar con:
+
+- **Módulo 3**: Interfaces y Polimorfismo Avanzado
+- **Módulo 4**: Manejo de Archivos y Base de Datos
+- **Módulo 5**: Desarrollo de Aplicaciones de Consola
+- **Módulo 6**: Programación Asíncrona
+
+## 💡 Consejos para el Éxito
+
+1. **Practica la herencia**: Crea jerarquías de clases reales
+2. **Implementa interfaces**: Diseña contratos claros
+3. **Usa polimorfismo**: Experimenta con métodos virtuales
+4. **Aplica principios SOLID**: Comienza con los básicos
+5. **Construye proyectos**: Aplica POO en aplicaciones reales
 
 ---
 
-## 📚 Descripción
+## 🎉 ¡Continúa tu viaje en POO con C#!
 
-En este nivel aprenderás a controlar el flujo de tu programa usando estructuras condicionales, bucles y cómo crear funciones reutilizables.
+**Primera clase**: [Clase 1: Herencia en C#](clase_1_herencia.md)
 
-## 🎯 Objetivos de Aprendizaje
+**Duración total del módulo**: 30-40 horas (dependiendo de tu ritmo de aprendizaje)
 
-- Usar estructuras condicionales (if, else, switch)
-- Implementar bucles (for, while, do-while, foreach)
-- Crear y usar funciones/métodos
-- Entender el scope de variables
-- Manejar la entrada del usuario
-- Crear programas interactivos
+**Nivel de dificultad**: Intermedio
 
-## 📖 Contenido Teórico
+**Requisitos previos**: Módulo 1 completado
 
-### 1. Estructuras Condicionales
+---
 
-#### If - Else
-```csharp
-if (condicion)
-{
-    // Código a ejecutar si la condición es verdadera
-}
-else if (otraCondicion)
-{
-    // Código a ejecutar si otraCondicion es verdadera
-}
-else
-{
-    // Código a ejecutar si ninguna condición es verdadera
-}
-```
-
-#### Switch Statement
-```csharp
-switch (variable)
-{
-    case valor1:
-        // Código para valor1
-        break;
-    case valor2:
-        // Código para valor2
-        break;
-    default:
-        // Código por defecto
-        break;
-}
-```
-
-### 2. Bucles
-
-#### For Loop
-```csharp
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine($"Iteración {i}");
-}
-```
-
-#### While Loop
-```csharp
-int contador = 0;
-while (contador < 5)
-{
-    Console.WriteLine($"Contador: {contador}");
-    contador++;
-}
-```
-
-#### Do-While Loop
-```csharp
-int numero;
-do
-{
-    Console.WriteLine("Ingresa un número positivo: ");
-    numero = Convert.ToInt32(Console.ReadLine());
-} while (numero <= 0);
-```
-
-#### Foreach Loop
-```csharp
-string[] colores = { "Rojo", "Verde", "Azul" };
-foreach (string color in colores)
-{
-    Console.WriteLine(color);
-}
-```
-
-### 3. Funciones y Métodos
-
-#### Sintaxis Básica
-```csharp
-[modificador] tipoRetorno NombreMetodo([parametros])
-{
-    // Cuerpo del método
-    return valor; // Solo si el tipo de retorno no es void
-}
-```
-
-#### Tipos de Métodos
-```csharp
-// Método sin parámetros ni retorno
-public void Saludar()
-{
-    Console.WriteLine("¡Hola!");
-}
-
-// Método con parámetros
-public void SaludarPersona(string nombre)
-{
-    Console.WriteLine($"¡Hola {nombre}!");
-}
-
-// Método con retorno
-public int Sumar(int a, int b)
-{
-    return a + b;
-}
-
-// Método con parámetros opcionales
-public void MostrarInfo(string nombre, int edad = 18)
-{
-    Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
-}
-```
-
-### 4. Scope de Variables
-
-```csharp
-public class Program
-{
-    static int variableGlobal = 10; // Variable de clase
-    
-    static void Main(string[] args)
-    {
-        int variableLocal = 20; // Variable local del método
-        
-        if (true)
-        {
-            int variableBloque = 30; // Variable solo visible en este bloque
-            Console.WriteLine(variableBloque); // OK
-        }
-        
-        // Console.WriteLine(variableBloque); // ERROR - No visible aquí
-        Console.WriteLine(variableLocal); // OK
-        Console.WriteLine(variableGlobal); // OK
-    }
-}
-```
-
-### 5. Entrada del Usuario
-
-```csharp
-// Leer string
-string nombre = Console.ReadLine();
-
-// Leer número entero
-int edad = Convert.ToInt32(Console.ReadLine());
-
-// Leer número decimal
-double precio = Convert.ToDouble(Console.ReadLine());
-
-// Leer carácter
-char letra = Convert.ToChar(Console.ReadKey().KeyChar);
-```
-
-### 6. Control de Flujo Avanzado
-
-#### Break y Continue
-```csharp
-for (int i = 0; i < 10; i++)
-{
-    if (i == 5)
-        break; // Sale del bucle
-    
-    if (i == 3)
-        continue; // Salta a la siguiente iteración
-    
-    Console.WriteLine(i);
-}
-```
-
-#### Goto (Usar con precaución)
-```csharp
-for (int i = 0; i < 10; i++)
-{
-    if (i == 5)
-        goto fin; // Salta a la etiqueta
-}
-
-fin:
-Console.WriteLine("Bucle terminado");
-```
-
-## 🏋️ Ejercicios Prácticos
-
-### Ejercicio 1: Calculadora con Menú
-Crea un programa que muestre un menú con opciones para sumar, restar, multiplicar y dividir. Usa switch para manejar las opciones.
-
-### Ejercicio 2: Verificador de Edad
-Crea un programa que verifique si una persona es menor de edad, mayor de edad o anciana (más de 65 años).
-
-### Ejercicio 3: Tabla de Multiplicar
-Genera la tabla de multiplicar de un número ingresado por el usuario usando un bucle for.
-
-### Ejercicio 4: Adivina el Número
-Crea un juego donde el usuario debe adivinar un número aleatorio entre 1 y 100. Usa while para continuar hasta que adivine.
-
-### Ejercicio 5: Factorial
-Calcula el factorial de un número usando un bucle. El factorial de n es n * (n-1) * (n-2) * ... * 1.
-
-### Ejercicio 6: Números Primos
-Crea un programa que determine si un número es primo o no.
-
-### Ejercicio 7: Serie Fibonacci
-Genera los primeros n números de la serie Fibonacci usando un bucle.
-
-### Ejercicio 8: Palíndromo
-Verifica si una palabra es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda).
-
-### Ejercicio 9: Calculadora de Promedio con Validación
-Crea un programa que calcule el promedio de n números, validando que los números estén en un rango específico.
-
-### Ejercicio 10: Proyecto Integrador - Juego de Adivinanzas
-Crea un juego completo que incluya:
-- Menú principal con opciones
-- Diferentes tipos de adivinanzas
-- Sistema de puntuación
-- Validación de entrada del usuario
-- Opción de jugar de nuevo
-
-## 📝 Quiz de Autoevaluación
-
-1. ¿Cuál es la diferencia entre `while` y `do-while`?
-2. ¿Cuándo usarías `break` en un bucle?
-3. ¿Qué significa el scope de una variable?
-4. ¿Cómo pasarías múltiples parámetros a una función?
-5. ¿Cuál es la diferencia entre `==` y `=`?
-
-## 🚀 Siguiente Nivel
-
-Una vez que hayas completado todos los ejercicios y comprendas los conceptos, estarás listo para el **Junior Level 3: Arrays, Listas y Colecciones Básicas**.
-
-## 💡 Consejos de Estudio
-
-- Practica creando diferentes tipos de bucles
-- Experimenta con diferentes condiciones en if-else
-- Crea funciones que resuelvan problemas específicos
-- Usa el debugger para seguir el flujo de tu programa
-- Documenta tus funciones con comentarios explicativos
-
-¡Continúa construyendo tu base sólida en C#! 🚀
+*¡Prepárate para dominar la Programación Orientada a Objetos! 🚀*
