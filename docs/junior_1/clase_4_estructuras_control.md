@@ -6,6 +6,25 @@
 - Entender el control de flujo con break, continue y return
 - Dominar las estructuras anidadas y su uso
 
+---
+
+## 📚 Navegación del Módulo 1
+
+| Clase | Tema | Enlace |
+|-------|------|--------|
+| [Clase 1](clase_1_introduccion.md) | Introducción a C# y .NET | |
+| [Clase 2](clase_2_variables_tipos.md) | Variables y Tipos de Datos | |
+| [Clase 3](clase_3_operadores.md) | Operadores y Expresiones | ← Anterior |
+| **Clase 4** | **Estructuras de Control** | ← Estás aquí |
+| [Clase 5](clase_5_arrays_collections.md) | Arrays y Colecciones | Siguiente → |
+| [Clase 6](clase_6_strings.md) | Manipulación de Strings | |
+| [Clase 7](clase_7_metodos.md) | Métodos y Funciones | |
+| [Clase 8](clase_8_namespaces.md) | Namespaces y Organización | |
+| [Clase 9](clase_9_manejo_errores.md) | Manejo de Errores | |
+| [Clase 10](clase_10_poo_basica.md) | Programación Orientada a Objetos Básica | |
+
+**← [Volver al README del Módulo 1](../junior_1/README.md)**
+
 ## 📚 Contenido Teórico
 
 ### 1. ¿Qué son las Estructuras de Control?
