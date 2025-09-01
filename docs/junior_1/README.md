@@ -1,198 +1,116 @@
-# 🎯 Junior Level 1: Fundamentos Básicos de C#
+# Módulo 1: Fundamentos de C# - Nivel Junior
 
-## 🧭 Navegación del Curso
+## Descripción
+Módulo introductorio que cubre los conceptos fundamentales del lenguaje C#, incluyendo la instalación del entorno de desarrollo, sintaxis básica, variables, tipos de datos, operadores y estructuras de control básicas.
 
-- **⬅️ Anterior**: [🏠 Página Principal](../README.md)
-- **➡️ Siguiente**: [Módulo 2: Estructuras de Control](../junior_2/README.md)
-- **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
+## Objetivos del Módulo
+- Instalar y configurar el entorno de desarrollo .NET
+- Comprender la sintaxis básica de C#
+- Dominar variables, tipos de datos y operadores
+- Implementar estructuras de control básicas
+- Crear el primer programa en C#
 
----
+## Prerrequisitos
+- Conocimientos básicos de informática
+- Windows, macOS o Linux
+- Conexión a internet para descargas
 
-## 📚 Descripción
+## Tecnologías y Herramientas
+- **.NET 8.0**: Framework de desarrollo
+- **Visual Studio Code**: Editor de código
+- **C#**: Lenguaje de programación
+- **Terminal/Command Prompt**: Línea de comandos
 
-En este nivel aprenderás los conceptos más fundamentales de C#: variables, tipos de datos, operadores y la estructura básica de un programa.
+## Estructura del Módulo
 
-## 🎯 Objetivos de Aprendizaje
+### [Clase 1: Introducción a C#](clase_1_introduccion.md)
+- **Historia y Características**: Origen del lenguaje, características principales
+- **Instalación del Entorno**: .NET SDK, Visual Studio Code, extensiones
+- **Primer Programa**: Hello World, estructura básica de un programa
+- **Conceptos Básicos**: Compilación, ejecución, sintaxis
 
-- Entender qué es C# y .NET
-- Crear tu primer programa "Hello World"
-- Declarar y usar variables
-- Conocer los tipos de datos básicos
-- Usar operadores aritméticos, de comparación y lógicos
-- Entender la conversión de tipos
+### [Clase 2: Variables y Tipos de Datos](clase_2_variables_tipos.md)
+- **Variables**: Declaración, asignación, convenciones de nomenclatura
+- **Tipos Primitivos**: int, double, bool, char, string
+- **Conversiones**: Implícitas y explícitas entre tipos
+- **Var y Tipos Implícitos**: Inferencia de tipos
 
-## 📖 Contenido Teórico
+### [Clase 3: Operadores y Expresiones](clase_3_operadores.md)
+- **Operadores Aritméticos**: +, -, *, /, %, ++, --
+- **Operadores de Comparación**: ==, !=, <, >, <=, >=
+- **Operadores Lógicos**: &&, ||, !
+- **Operadores de Asignación**: =, +=, -=, *=, /=
 
-### 1. ¿Qué es C#?
+### [Clase 4: Estructuras de Control](clase_4_estructuras_control.md)
+- **Condicionales**: if, else, else if, switch
+- **Bucles**: for, while, do-while
+- **Control de Flujo**: break, continue, return
+- **Estructuras Anidadas**: Combinación de condicionales y bucles
 
-C# es un lenguaje de programación moderno, orientado a objetos, desarrollado por Microsoft como parte de la plataforma .NET. Es ampliamente utilizado para:
-- Desarrollo de aplicaciones Windows
-- Desarrollo web backend
-- Aplicaciones móviles
-- Juegos con Unity
-- Aplicaciones de escritorio
+### [Clase 5: Colecciones Básicas](clase_5_colecciones.md)
+- **Arrays**: Declaración, inicialización, acceso a elementos
+- **Listas**: List<T>, métodos básicos, iteración
+- **Colecciones Genéricas**: Concepto de genéricos en C#
+- **Manejo de Colecciones**: Agregar, eliminar, buscar elementos
 
-### 2. Estructura Básica de un Programa C#
+### [Clase 6: Strings y Texto](clase_6_strings.md)
+- **Manipulación de Strings**: Concatenación, interpolación
+- **Métodos de String**: Length, ToUpper, ToLower, Substring
+- **StringBuilder**: Para manipulación eficiente de strings
+- **Formato de Strings**: String.Format, placeholders
 
-```csharp
-using System;
+### [Clase 7: Funciones Básicas](clase_7_funciones.md)
+- **Definición de Métodos**: Sintaxis, parámetros, tipos de retorno
+- **Parámetros**: Por valor, por referencia, parámetros opcionales
+- **Return**: Valores de retorno, void, múltiples returns
+- **Scope de Variables**: Variables locales y globales
 
-namespace MiPrimerPrograma
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("¡Hola Mundo!");
-        }
-    }
-}
-```
+### [Clase 8: Namespaces y Organización](clase_8_namespaces.md)
+- **Namespaces**: Organización del código, using statements
+- **Organización de Archivos**: Estructura de proyectos
+- **Módulos Estándar**: System, System.Collections, System.IO
+- **Creación de Namespaces**: Organización personalizada
 
-### 3. Variables y Tipos de Datos
+### [Clase 9: Manejo de Errores Básico](clase_9_errores.md)
+- **Tipos de Errores**: Errores de compilación vs runtime
+- **Try-Catch**: Manejo básico de excepciones
+- **Tipos de Excepciones**: Exception, ArgumentException, etc.
+- **Debugging Básico**: Uso del debugger de Visual Studio Code
 
-#### Tipos Numéricos
-- `int`: Números enteros (32 bits)
-- `long`: Números enteros largos (64 bits)
-- `float`: Números decimales de precisión simple
-- `double`: Números decimales de precisión doble
-- `decimal`: Números decimales de alta precisión
+### [Clase 10: Proyecto Integrador](clase_10_proyecto.md)
+- **Calculadora Básica**: Aplicación de consola completa
+- **Integración de Conceptos**: Variables, operadores, funciones
+- **Manejo de Entrada**: Lectura de datos del usuario
+- **Validación Básica**: Verificación de entrada del usuario
 
-#### Tipos de Texto
-- `string`: Cadenas de texto
-- `char`: Un solo carácter
+## Metodología de Aprendizaje
+- **Ejercicios Prácticos**: Código paso a paso con explicaciones
+- **Proyectos Incrementales**: Construcción gradual de aplicaciones
+- **Debugging Guiado**: Resolución de errores comunes
+- **Práctica Continua**: Ejercicios de refuerzo en cada clase
 
-#### Tipos Booleanos
-- `bool`: Verdadero o falso
+## Resultados Esperados
+Al completar este módulo, serás capaz de:
+- Escribir programas básicos en C#
+- Manejar variables y tipos de datos
+- Implementar lógica de control básica
+- Crear funciones simples
+- Manejar colecciones básicas
+- Comprender la estructura de un proyecto C#
 
-#### Tipos de Referencia
-- `object`: Tipo base de todos los tipos
-
-### 4. Declaración de Variables
-
-```csharp
-// Declaración e inicialización
-int edad = 25;
-string nombre = "Juan";
-bool esEstudiante = true;
-
-// Declaración sin inicialización
-int numero;
-numero = 10;
-
-// Declaración múltiple
-int x = 1, y = 2, z = 3;
-
-// Inferencia de tipos (var)
-var precio = 19.99m; // El compilador infiere que es decimal
-```
-
-### 5. Operadores
-
-#### Operadores Aritméticos
-- `+` : Suma
-- `-` : Resta
-- `*` : Multiplicación
-- `/` : División
-- `%` : Módulo (resto de la división)
-- `++` : Incremento
-- `--` : Decremento
-
-#### Operadores de Asignación
-- `=` : Asignación simple
-- `+=` : Suma y asignación
-- `-=` : Resta y asignación
-- `*=` : Multiplicación y asignación
-- `/=` : División y asignación
-
-#### Operadores de Comparación
-- `==` : Igual a
-- `!=` : Diferente de
-- `<` : Menor que
-- `>` : Mayor que
-- `<=` : Menor o igual que
-- `>=` : Mayor o igual que
-
-#### Operadores Lógicos
-- `&&` : AND lógico
-- `||` : OR lógico
-- `!` : NOT lógico
-
-### 6. Conversión de Tipos
-
-```csharp
-// Conversión implícita (automática)
-int numeroEntero = 10;
-long numeroLargo = numeroEntero; // OK
-
-// Conversión explícita (casting)
-double numeroDecimal = 10.5;
-int numeroEntero = (int)numeroDecimal; // Resultado: 10
-
-// Conversión con métodos
-string texto = "123";
-int numero = Convert.ToInt32(texto);
-```
-
-## 🏋️ Ejercicios Prácticos
-
-### Ejercicio 1: Hello World
-Crea un programa que muestre "¡Hola Mundo!" en la consola.
-
-### Ejercicio 2: Variables Básicas
-Declara variables para almacenar tu nombre, edad, altura y si eres estudiante.
-
-### Ejercicio 3: Calculadora Simple
-Crea un programa que calcule la suma, resta, multiplicación y división de dos números.
-
-### Ejercicio 4: Conversión de Temperatura
-Convierte una temperatura de Celsius a Fahrenheit usando la fórmula: F = C * 9/5 + 32
-
-### Ejercicio 5: Cálculo de Área
-Calcula el área de un círculo dado su radio (A = π * r²)
-
-### Ejercicio 6: Operadores de Comparación
-Compara dos números y muestra cuál es mayor, menor o si son iguales.
-
-### Ejercicio 7: Operadores Lógicos
-Crea un programa que determine si un número está en un rango específico usando operadores lógicos.
-
-### Ejercicio 8: Conversión de Tipos
-Convierte diferentes tipos de datos entre sí y observa los resultados.
-
-### Ejercicio 9: Cálculo de Promedio
-Calcula el promedio de tres números enteros.
-
-### Ejercicio 10: Proyecto Integrador - Calculadora de IMC
-Crea un programa que calcule el Índice de Masa Corporal (IMC) usando peso y altura.
-
-## 📝 Quiz de Autoevaluación
-
-1. ¿Qué tipo de dato usarías para almacenar el precio de un producto?
-2. ¿Cuál es la diferencia entre `int` y `long`?
-3. ¿Qué operador usarías para verificar si dos valores son iguales?
-4. ¿Cómo declararías una variable que almacene tu nombre completo?
-5. ¿Qué significa el operador `%`?
-
-## 🚀 Siguiente Nivel
-
-Una vez que hayas completado todos los ejercicios y comprendas los conceptos, estarás listo para el **Junior Level 2: Estructuras de Control y Funciones**.
+## Navegación
+- [Clase 1: Introducción a C#](clase_1_introduccion.md)
+- [Clase 2: Variables y Tipos de Datos](clase_2_variables_tipos.md)
+- [Clase 3: Operadores y Expresiones](clase_3_operadores.md)
+- [Clase 4: Estructuras de Control](clase_4_estructuras_control.md)
+- [Clase 5: Colecciones Básicas](clase_5_colecciones.md)
+- [Clase 6: Strings y Texto](clase_6_strings.md)
+- [Clase 7: Funciones Básicas](clase_7_funciones.md)
+- [Clase 8: Namespaces y Organización](clase_8_namespaces.md)
+- [Clase 9: Manejo de Errores Básico](clase_9_errores.md)
+- [Clase 10: Proyecto Integrador](clase_10_proyecto.md)
+- [Volver al Inicio](../../README.md)
 
 ---
 
-## 🧭 Navegación del Curso
-
-**← Anterior**: [Inicio del Curso](../../README.md)  
-**Siguiente →**: [Junior Level 2: Estructuras de Control](../junior_2/README.md)
-
----
-
-## 💡 Consejos de Estudio
-
-- Practica cada concepto con ejemplos simples
-- Experimenta cambiando valores en los ejercicios
-- Usa el debugger de Visual Studio para entender el flujo del programa
-- No te frustres si algo no funciona al primer intento
-- Documenta tu código con comentarios
-
-¡Manos a la obra! 🎯
+**¡Bienvenido al mundo de la programación con C#! 🚀**
