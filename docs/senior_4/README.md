@@ -1,9 +1,9 @@
-# 🏆 Senior Level 4: Entity Framework y Bases de Datos
+# 🏆 Senior Level 4: Arquitectura de Microservicios Avanzada
 
 ## 🧭 Navegación del Curso
 
-- **⬅️ Anterior**: [Módulo 10: APIs REST](../senior_3/README.md)
-- **➡️ Siguiente**: [Módulo 12: Arquitectura Limpia](../senior_5/README.md)
+- **⬅️ Anterior**: [Módulo 10: APIs REST y Web APIs](../senior_3/README.md)
+- **➡️ Siguiente**: [Módulo 12: DevOps y CI/CD para .NET](../senior_5/README.md)
 - **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
 ---
@@ -11,93 +11,135 @@
 ## 📋 Contenido del Nivel
 
 ### 🎯 Objetivos de Aprendizaje
-- Dominar Entity Framework Core para acceso a datos
-- Implementar patrones de acceso a datos robustos
-- Optimizar consultas y manejar relaciones complejas
-- Implementar migraciones y versionado de base de datos
-- Crear arquitecturas de datos escalables
+- Dominar la arquitectura de microservicios avanzada
+- Implementar patrones de comunicación entre servicios
+- Configurar service mesh y API gateways
+- Implementar event sourcing y CQRS en microservicios
+- Crear sistemas de monitoreo y observabilidad distribuida
+- Implementar testing de microservicios
+- Configurar despliegue y orquestación
 
 ### ⏱️ Tiempo Estimado
-- **Teoría**: 4-5 horas
-- **Ejercicios**: 6-8 horas
-- **Proyecto Integrador**: 4-5 horas
-- **Total**: 14-18 horas
+- **Teoría**: 5-6 horas
+- **Ejercicios**: 8-10 horas
+- **Proyecto Integrador**: 6-8 horas
+- **Total**: 19-24 horas
 
 ---
 
 ## 📚 Contenido Teórico
 
-### 1. Entity Framework Core Fundamentals
+### 1. Arquitectura de Microservicios Avanzada
 
-#### 1.1 ¿Qué es Entity Framework Core?
-Entity Framework Core es un ORM (Object-Relational Mapper) moderno y ligero para .NET que permite trabajar con bases de datos usando objetos .NET.
+#### 1.1 ¿Qué son los Microservicios?
+Los microservicios son una arquitectura de software que estructura una aplicación como una colección de servicios pequeños, independientes y autónomos que se comunican a través de APIs bien definidas.
 
-#### 1.2 Configuración Básica
+#### 1.2 Principios de Microservicios
 
 ```csharp
-// Program.cs o Startup.cs
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// appsettings.json
+// Principios fundamentales
+public class MicroservicePrinciples
 {
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=MyAppDb;Trusted_Connection=true;MultipleActiveResultSets=true"
-  }
+    // 1. Single Responsibility
+    // Cada servicio tiene una responsabilidad específica
+    
+    // 2. Autonomía
+    // Los servicios pueden desarrollarse, desplegarse y escalar independientemente
+    
+    // 3. Loose Coupling
+    // Los servicios se comunican a través de contratos bien definidos
+    
+    // 4. High Cohesion
+    // Cada servicio agrupa funcionalidades relacionadas
+    
+    // 5. Independent Data Management
+    // Cada servicio puede tener su propia base de datos
 }
 
-// DbContext
-public class ApplicationDbContext : DbContext
+// Ejemplo de estructura de microservicios
+public class ECommerceMicroservices
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+    // User Service
+    public class UserService
     {
+        public async Task<UserDto> CreateUserAsync(CreateUserDto dto);
+        public async Task<UserDto> GetUserAsync(int id);
+        public async Task<bool> UpdateUserAsync(int id, UpdateUserDto dto);
     }
     
-    public DbSet<User> Users { get; set; }
-    public DbSet<Order> Orders { get; set; }
-    public DbSet<Product> Products { get; set; }
-    
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // Product Service
+    public class ProductService
     {
-        // Configuraciones del modelo
-        modelBuilder.Entity<User>()
-            .HasIndex(u => u.Email)
-            .IsUnique();
-            
-        modelBuilder.Entity<Order>()
-            .Property(o => o.Total)
-            .HasColumnType("decimal(18,2)");
+        public async Task<ProductDto> CreateProductAsync(CreateProductDto dto);
+        public async Task<ProductDto> GetProductAsync(int id);
+        public async Task<IEnumerable<ProductDto>> SearchProductsAsync(string query);
+    }
+    
+    // Order Service
+    public class OrderService
+    {
+        public async Task<OrderDto> CreateOrderAsync(CreateOrderDto dto);
+        public async Task<OrderDto> GetOrderAsync(int id);
+        public async Task<bool> UpdateOrderStatusAsync(int id, OrderStatus status);
+    }
+    
+    // Payment Service
+    public class PaymentService
+    {
+        public async Task<PaymentResult> ProcessPaymentAsync(PaymentRequest request);
+        public async Task<PaymentDto> GetPaymentAsync(int id);
     }
 }
 ```
 
-#### 1.3 Entidades y Modelos
+#### 1.3 Patrones de Comunicación
 
 ```csharp
-public class User
+// 1. Síncrona (HTTP/REST)
+public interface IUserServiceClient
 {
-    public int Id { get; set; }
-    public string Email { get; set; }
-    public string Name { get; set; }
-    public DateTime CreatedAt { get; set; }
-    
-    // Propiedades de navegación
-    public virtual ICollection<Order> Orders { get; set; }
+    Task<UserDto> GetUserAsync(int id);
+    Task<bool> UpdateUserAsync(int id, UpdateUserDto dto);
 }
 
-public class Order
+// Implementación con HttpClient
+public class UserServiceClient : IUserServiceClient
 {
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public decimal Total { get; set; }
-    public DateTime OrderDate { get; set; }
-    public OrderStatus Status { get; set; }
+    private readonly HttpClient _httpClient;
     
-    // Propiedades de navegación
-    public virtual User User { get; set; }
-    public virtual ICollection<OrderItem> Items { get; set; }
+    public UserServiceClient(HttpClient httpClient)
+    {
+        _httpClient = httpClient;
+    }
+    
+    public async Task<UserDto> GetUserAsync(int id)
+    {
+        var response = await _httpClient.GetAsync($"/api/users/{id}");
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadFromJsonAsync<UserDto>();
+    }
 }
+
+// 2. Asíncrona (Message Broker)
+public interface IMessageBroker
+{
+    Task PublishAsync<T>(string topic, T message);
+    Task SubscribeAsync<T>(string topic, Func<T, Task> handler);
+}
+
+// Implementación con RabbitMQ
+public class RabbitMQMessageBroker : IMessageBroker
+{
+    private readonly IConnection _connection;
+    private readonly IModel _channel;
+    
+    public async Task PublishAsync<T>(string topic, T message)
+    {
+        var body = JsonSerializer.SerializeToUtf8Bytes(message);
+        _channel.BasicPublish("", topic, null, body);
+    }
+}
+```
 
 public class Product
 {
