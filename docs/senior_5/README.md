@@ -2,7 +2,7 @@
 
 ## 🧭 Navegación del Curso
 
-- **⬅️ Anterior**: [Módulo 11: Entity Framework](../senior_4/README.md)
+- **⬅️ Anterior**: [Módulo 11: Arquitectura de Microservicios Avanzada](../senior_4/README.md)
 - **➡️ Siguiente**: [Módulo 13: Performance y Deployment](../senior_6/README.md)
 - **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
