@@ -69,10 +69,10 @@ namespace VariablesTipos
             Console.WriteLine($"1. Type of number: {number.GetType()}");
             Console.WriteLine($"2. Type of text: {text.GetType()}");
             Console.WriteLine($"3. Type of decimalNumber: {decimalNumber.GetType()}");
-            Console.WriteLine($"4. Type of isTrue: {isTrue.GetType()}   \n");
+            Console.WriteLine($"4. Type of isTrue: {isTrue.GetType()}   \n"); 
 
 
-            
+
         }
     }
 }
