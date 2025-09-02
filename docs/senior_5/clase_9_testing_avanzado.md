@@ -1053,3 +1053,4 @@ En la siguiente clase continuaremos con el **Proyecto Final** para integrar todo
 - [Integration Testing](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests)
 - [Performance Testing](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
 
+

@@ -780,3 +780,4 @@ En la siguiente clase continuaremos con **Message Bus** para implementar comunic
 - [YARP (Yet Another Reverse Proxy)](https://github.com/microsoft/reverse-proxy)
 - [API Gateway Best Practices](https://microservices.io/patterns/apigateway.html)
 
+

@@ -729,3 +729,4 @@ En la siguiente clase aprenderemos sobre:
 - [Kubernetes Best Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
 - [Istio Service Mesh](https://istio.io/docs/)
 
+

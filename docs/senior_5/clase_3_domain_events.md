@@ -932,3 +932,4 @@ En la siguiente clase continuaremos con **Microservicios** para implementar arqu
 - [Domain Events Pattern](https://martinfowler.com/eaaDev/DomainEvent.html)
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
 
+

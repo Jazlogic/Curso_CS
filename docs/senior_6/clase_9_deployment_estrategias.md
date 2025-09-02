@@ -993,3 +993,4 @@ En la siguiente clase aprenderemos sobre:
 - [Kubernetes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 - [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
+

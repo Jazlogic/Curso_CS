@@ -879,3 +879,4 @@ En la siguiente clase continuaremos con **Testing Avanzado** para implementar pr
 - [FluentValidation](https://docs.fluentvalidation.net/)
 - [Advanced CQRS](https://martinfowler.com/bliki/CQRS.html)
 
+

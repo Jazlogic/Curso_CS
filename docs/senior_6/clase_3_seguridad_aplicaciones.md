@@ -1196,3 +1196,4 @@ En la siguiente clase aprenderemos sobre:
 - [.NET Cryptography](https://docs.microsoft.com/en-us/dotnet/standard/security/cryptography)
 - [Security Best Practices](https://docs.microsoft.com/en-us/dotnet/architecture/security/)
 
+

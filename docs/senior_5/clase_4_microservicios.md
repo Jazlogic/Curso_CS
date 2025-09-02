@@ -813,3 +813,4 @@ En la siguiente clase continuaremos con **API Gateway** para enrutar y agregar r
 - [Microservices Patterns](https://microservices.io/patterns/)
 - [Building Microservices](https://martinfowler.com/articles/microservices.html)
 
+

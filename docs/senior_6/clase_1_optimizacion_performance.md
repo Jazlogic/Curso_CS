@@ -594,3 +594,4 @@ En la siguiente clase aprenderemos sobre:
 - [Performance Counters](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.performancecounter)
 - [Memory Profiling](https://docs.microsoft.com/en-us/dotnet/core/diagnostics/memory-profiling)
 
+

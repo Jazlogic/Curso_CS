@@ -955,3 +955,4 @@ En la siguiente clase continuaremos con **Event Sourcing** para implementar audi
 - [RabbitMQ .NET Client](https://www.rabbitmq.com/dotnet.html)
 - [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/)
 
+
