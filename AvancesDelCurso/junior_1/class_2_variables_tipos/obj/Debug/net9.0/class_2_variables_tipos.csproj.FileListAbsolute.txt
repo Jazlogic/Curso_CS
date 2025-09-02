@@ -1,0 +1,15 @@
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\bin\Debug\net9.0\class_2_variables_tipos.exe
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\bin\Debug\net9.0\class_2_variables_tipos.deps.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\bin\Debug\net9.0\class_2_variables_tipos.runtimeconfig.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\bin\Debug\net9.0\class_2_variables_tipos.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\bin\Debug\net9.0\class_2_variables_tipos.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.AssemblyInfoInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.AssemblyInfo.cs
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.csproj.CoreCompileInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.sourcelink.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\refint\class_2_variables_tipos.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\class_2_variables_tipos.genruntimeconfig.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_2_variables_tipos\obj\Debug\net9.0\ref\class_2_variables_tipos.dll
