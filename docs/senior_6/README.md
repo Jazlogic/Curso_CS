@@ -2,7 +2,7 @@
 
 ## 🧭 Navegación del Curso
 
-- **⬅️ Anterior**: [Módulo 12: Arquitectura Limpia](../senior_5/README.md)
+- **⬅️ Anterior**: [Módulo 12: Clean Architecture y Microservicios](../senior_5/README.md)
 - **➡️ Siguiente**: [Módulo 14: Plataformas Empresariales](../senior_7/README.md)
 - **📚 [Índice Completo](../INDICE_COMPLETO.md)** | **[🧭 Navegación Rápida](../NAVEGACION_RAPIDA.md)**
 
@@ -22,6 +22,72 @@
 - **Ejercicios**: 6-8 horas
 - **Proyecto Integrador**: 5-6 horas
 - **Total**: 15-19 horas
+
+---
+
+## 📚 Estructura del Módulo
+
+### 📖 Clases del Módulo
+
+1. **[Clase 1: Optimización de Performance y Profiling](clase_1_optimizacion_performance.md)**
+   - Profiling y análisis de performance
+   - Benchmarking con BenchmarkDotNet
+   - Memory profiling y optimización
+   - Performance counters
+
+2. **[Clase 2: Optimización de Código y Memoria](clase_2_optimizacion_codigo.md)**
+   - Object pooling y reducción de GC pressure
+   - Optimización de LINQ
+   - Uso eficiente de estructuras de datos
+   - Async/await optimizado
+
+3. **[Clase 3: Seguridad en Aplicaciones .NET](clase_3_seguridad_aplicaciones.md)**
+   - Autenticación y autorización avanzada
+   - Protección contra ataques comunes
+   - Cifrado y hashing seguro
+   - Validación de entrada y sanitización
+
+4. **[Clase 4: Seguridad de APIs y Microservicios](clase_4_seguridad_apis.md)**
+   - JWT y OAuth 2.0 avanzado
+   - Rate limiting y protección CSRF
+   - API security headers
+   - Seguridad en microservicios
+
+5. **[Clase 5: Containerización con Docker](clase_5_containerizacion_docker.md)**
+   - Dockerfiles optimizados para .NET
+   - Multi-stage builds
+   - Docker Compose para desarrollo
+   - Optimización de imágenes
+
+6. **[Clase 6: Orquestación con Kubernetes](clase_6_orquestacion_kubernetes.md)**
+   - Manifests de Kubernetes
+   - Deployments y servicios
+   - ConfigMaps y Secrets
+   - Horizontal Pod Autoscaler
+
+7. **[Clase 7: CI/CD y Pipelines](clase_7_cicd_pipelines.md)**
+   - GitHub Actions para .NET
+   - Azure DevOps pipelines
+   - Testing automatizado en CI/CD
+   - Deployment automatizado
+
+8. **[Clase 8: Monitoreo y Observabilidad](clase_8_monitoreo_observabilidad.md)**
+   - Logging estructurado con Serilog
+   - Métricas con Prometheus
+   - Health checks y readiness probes
+   - Alertas y dashboards
+
+9. **[Clase 9: Deployment y Estrategias](clase_9_deployment_estrategias.md)**
+   - Blue-Green deployment
+   - Canary deployment
+   - Rollback strategies
+   - Feature flags
+
+10. **[Clase 10: Proyecto Final Integrador](clase_10_proyecto_final.md)**
+    - Aplicación web optimizada para producción
+    - Implementación de todas las mejores prácticas
+    - Deployment completo en Kubernetes
+    - Monitoreo y observabilidad
 
 ---
 
