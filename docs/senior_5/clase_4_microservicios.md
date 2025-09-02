@@ -812,3 +812,4 @@ En la siguiente clase continuaremos con **API Gateway** para enrutar y agregar r
 - [Microservices Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/)
 - [Microservices Patterns](https://microservices.io/patterns/)
 - [Building Microservices](https://martinfowler.com/articles/microservices.html)
+

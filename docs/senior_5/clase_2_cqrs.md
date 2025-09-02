@@ -839,3 +839,4 @@ En la siguiente clase continuaremos con **Domain Events** para implementar comun
 - [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 - [MediatR](https://github.com/jbogard/MediatR)
 - [CQRS with MediatR](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-reads-queries)
+

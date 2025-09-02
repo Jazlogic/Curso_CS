@@ -992,3 +992,4 @@ En la siguiente clase aprenderemos sobre:
 - [Feature Flags](https://docs.microsoft.com/en-us/azure/azure-app-configuration/concept-feature-management)
 - [Kubernetes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 - [Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
+

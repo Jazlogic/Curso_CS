@@ -828,3 +828,4 @@ En la siguiente clase aprenderemos sobre:
 - [Prometheus .NET](https://prometheus.io/docs/guides/aspnetcore/)
 - [Health Checks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks)
 - [Observability Best Practices](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/observability/)
+

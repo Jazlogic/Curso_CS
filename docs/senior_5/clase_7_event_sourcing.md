@@ -929,3 +929,4 @@ En la siguiente clase continuaremos con **CQRS Avanzado** para implementar consu
 - [Event Sourcing Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
 - [CQRS with Event Sourcing](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-event-sourcing)
+

@@ -1195,3 +1195,4 @@ En la siguiente clase aprenderemos sobre:
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [.NET Cryptography](https://docs.microsoft.com/en-us/dotnet/standard/security/cryptography)
 - [Security Best Practices](https://docs.microsoft.com/en-us/dotnet/architecture/security/)
+

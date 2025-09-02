@@ -931,3 +931,4 @@ En la siguiente clase continuaremos con **Microservicios** para implementar arqu
 - [Domain Events](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation)
 - [Domain Events Pattern](https://martinfowler.com/eaaDev/DomainEvent.html)
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html)
+

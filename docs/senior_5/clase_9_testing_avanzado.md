@@ -1052,3 +1052,4 @@ En la siguiente clase continuaremos con el **Proyecto Final** para integrar todo
 - [Unit Testing Best Practices](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 - [Integration Testing](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests)
 - [Performance Testing](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+

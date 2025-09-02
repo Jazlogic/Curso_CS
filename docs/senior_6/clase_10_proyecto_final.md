@@ -1164,3 +1164,4 @@ En el siguiente módulo aprenderemos sobre:
 - [Kubernetes Production Best Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
 - [Microservices Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/)
 - [Cloud Native Development](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/)
+

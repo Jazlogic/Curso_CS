@@ -878,3 +878,4 @@ En la siguiente clase continuaremos con **Testing Avanzado** para implementar pr
 - [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 - [FluentValidation](https://docs.fluentvalidation.net/)
 - [Advanced CQRS](https://martinfowler.com/bliki/CQRS.html)
+

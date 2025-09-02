@@ -996,3 +996,4 @@ En la siguiente clase aprenderemos sobre **Lógica de Negocio Avanzada**, implem
 ---
 
 **¡Has completado la segunda clase del Módulo 14! 📡💬**
+
