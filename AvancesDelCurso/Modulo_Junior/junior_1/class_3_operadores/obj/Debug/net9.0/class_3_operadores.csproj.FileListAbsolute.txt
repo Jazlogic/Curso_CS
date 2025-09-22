@@ -1,0 +1,15 @@
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.AssemblyInfoInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.AssemblyInfo.cs
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.csproj.CoreCompileInputs.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.sourcelink.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\bin\Debug\net9.0\class_3_operadores.exe
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\bin\Debug\net9.0\class_3_operadores.deps.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\bin\Debug\net9.0\class_3_operadores.runtimeconfig.json
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\bin\Debug\net9.0\class_3_operadores.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\bin\Debug\net9.0\class_3_operadores.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\refint\class_3_operadores.dll
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.pdb
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\class_3_operadores.genruntimeconfig.cache
+C:\src\Cursos\Curso_C#\AvancesDelCurso\junior_1\class_3_operadores\obj\Debug\net9.0\ref\class_3_operadores.dll
